@@ -1,0 +1,1 @@
+{!! $pdf->manas_pdf !!}               
