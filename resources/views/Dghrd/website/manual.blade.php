@@ -20,7 +20,7 @@
                             <ul style="list-style:none;" class="ms-0 ps-0 lh-lg">
                                 <li class="d-flex">
                                     <div class="d-flex align-items-center">
-                                        <img src="{{'public/website/human/icon/TriRight.png'}}" >
+                                        <img src="{{'website/human/icon/TriRight.png'}}" >
                                     </div>
                                     <div class="ms-2 ">
                                         <a href="{{ route('sparrow.content', ['tab' => 3]) }}" class="aa text-dark">Sparrow Help Manual</a>
@@ -28,7 +28,7 @@
                                 </li>
                                 <li class="d-flex mt-2">
                                     <div class="d-flex align-items-center">
-                                        <img src="{{'public/website/human/icon/TriRight.png'}}" >
+                                        <img src="{{'website/human/icon/TriRight.png'}}" >
                                     </div>
                                     <div class="ms-2 ">
                                         <a href="{{url('infra_manual')}}" class="aa text-dark">Infrastructure Manual</a>
@@ -36,7 +36,7 @@
                                 </li>
                                 <li class="d-flex mt-2">
                                     <div class="d-flex align-items-center">
-                                        <img src="{{'public/website/human/icon/TriRight.png'}}" >
+                                        <img src="{{'website/human/icon/TriRight.png'}}" >
                                     </div>
                                     <div class="ms-2 ">
                                         <a href="{{url('welfare_manual')}}" class="aa text-dark">Welfare Manual</a>
@@ -44,7 +44,7 @@
                                 </li>
                                 <li class="d-flex mt-2">
                                     <div class="d-flex align-items-center">
-                                        <img src="{{'public/website/human/icon/TriRight.png'}}" >
+                                        <img src="{{'website/human/icon/TriRight.png'}}" >
                                     </div>
                                     <div class="ms-2 ">
                                         <a href="{{url('emc_manual')}}" class="aa text-dark">EMC Manual</a>
@@ -52,7 +52,7 @@
                                 </li>
                                 <li class="d-flex mt-2">
                                     <div class="d-flex align-items-center">
-                                        <img src="{{'public/website/human/icon/TriRight.png'}}" >
+                                        <img src="{{'website/human/icon/TriRight.png'}}" >
                                     </div>
                                     <div class="ms-2 ">
                                         <a href="{{url('asset_register')}}" class="aa text-dark">Asset Register</a>
@@ -60,7 +60,7 @@
                                 </li>
                                 <li class="d-flex mt-2">
                                     <div class="d-flex align-items-center">
-                                        <img src="{{'public/website/human/icon/TriRight.png'}}" >
+                                        <img src="{{'website/human/icon/TriRight.png'}}" >
                                     </div>
                                     <div class="ms-2 ">
                                         <a href="###" class="aa text-dark">User Manual</a>
@@ -68,7 +68,7 @@
                                 </li>
                                 <li class="d-flex lh-sm mt-2 text-justify">
                                     <div class="d-flex align-items-center">
-                                        <img src="{{'public/website/human/icon/TriRight.png'}}" >
+                                        <img src="{{'website/human/icon/TriRight.png'}}" >
                                     </div>
                                     <div class="ms-2 ">
                                         <a href="###" class="aa text-dark">User Manual for e-Vacancy Module - DGHRD launches on-line utility e-Vacancy Module for reporting Direct Recruitment
@@ -77,7 +77,7 @@
                                 </li>
                                 <li class="d-flex mt-2">
                                     <div class="d-flex align-items-center">
-                                        <img src="{{'public/website/human/icon/TriRight.png'}}" >
+                                        <img src="{{'website/human/icon/TriRight.png'}}" >
                                     </div>
                                     <div class="ms-2 ">
                                         <a href="###" class="aa text-dark">Manual E-Vacancy Module</a>

@@ -20,18 +20,18 @@
                             <ul style="list-style:none;" class="ms-0 ps-0 lh-lg">
                                 <li class="d-flex">
                                     <div class="d-flex align-items-center">
-                                        <img src="{{'public/website/human/icon/TriRight.png'}}" >
+                                        <img src="{{'website/human/icon/TriRight.png'}}" >
                                     </div>
                                     <div class="ms-2 ">
-                                        <a href="{{asset('public/assets/Document/RTI/RTI Act, 2005 (Amended).pdf')}}" class="aa text-dark">RTI Act, 2005 (Amended)</a>
+                                        <a href="{{asset('assets/Document/RTI/RTI Act, 2005 (Amended).pdf')}}" class="aa text-dark">RTI Act, 2005 (Amended)</a>
                                     </div>
                                 </li>
                                 <li class="d-flex">
                                     <div class="d-flex align-items-center">
-                                        <img src="{{'public/website/human/icon/TriRight.png'}}" >
+                                        <img src="{{'website/human/icon/TriRight.png'}}" >
                                     </div>
                                     <div class="ms-2 ">
-                                        <a href="{{asset('public/assets/Document/RTI/RTI-Act, 2005.pdf')}}" class="aa text-dark">RTI-Act, 2005</a>
+                                        <a href="{{asset('assets/Document/RTI/RTI-Act, 2005.pdf')}}" class="aa text-dark">RTI-Act, 2005</a>
                                     </div>
                                 </li>
                             </ul>

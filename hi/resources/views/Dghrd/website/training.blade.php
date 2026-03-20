@@ -22,7 +22,7 @@
                             <ul style="list-style:none;" class="ms-0 ps-0 lh-lg">
                                 <li class="d-flex">
                                     <div class="d-flex align-items-center">
-                                        <img src="{{'public/website/human/icon/TriRight.png'}}">
+                                        <img src="{{'website/human/icon/TriRight.png'}}">
                                     </div>
                                     <div class="ms-2 ">
                                         <a href="{{ route('sparrow.content', ['tab' => 3]) }}" class="aa text-dark"></a>

@@ -26,7 +26,7 @@
                             <ul style="list-style:none;" class="ms-0 ps-0 lh-lg">
                                 <li class="d-flex">
                                     <div class="d-flex align-items-center">
-                                        <img src="{{'public/website/human/icon/TriRight.png'}}">
+                                        <img src="{{'website/human/icon/TriRight.png'}}">
                                     </div>
                                     <div class="ms-2 ">
                                         <a href="{{ route('sparrow.content', ['tab' => 3]) }}" class="aa text-dark">स्पैरो सहायता मैनुअल</a>
@@ -34,7 +34,7 @@
                                 </li>
                                 <li class="d-flex mt-2">
                                     <div class="d-flex align-items-center">
-                                        <img src="{{'public/website/human/icon/TriRight.png'}}">
+                                        <img src="{{'website/human/icon/TriRight.png'}}">
                                     </div>
                                     <div class="ms-2 ">
                                         <a href="{{url('infra_manual')}}" class="aa text-dark">बुनियादी ढाँचा मैनुअल</a>
@@ -42,7 +42,7 @@
                                 </li>
                                 <li class="d-flex mt-2">
                                     <div class="d-flex align-items-center">
-                                        <img src="{{'public/website/human/icon/TriRight.png'}}">
+                                        <img src="{{'website/human/icon/TriRight.png'}}">
                                     </div>
                                     <div class="ms-2 ">
                                         <a href="{{url('welfare_manual')}}" class="aa text-dark">कल्याण मैनुअल</a>
@@ -50,7 +50,7 @@
                                 </li>
                                 <li class="d-flex mt-2">
                                     <div class="d-flex align-items-center">
-                                        <img src="{{'public/website/human/icon/TriRight.png'}}">
+                                        <img src="{{'website/human/icon/TriRight.png'}}">
                                     </div>
                                     <div class="ms-2 ">
                                         <a href="{{url('emc_manual')}}" class="aa text-dark">ईएमसी मैनुअल</a>
@@ -58,7 +58,7 @@
                                 </li>
                                 <li class="d-flex mt-2">
                                     <div class="d-flex align-items-center">
-                                        <img src="{{'public/website/human/icon/TriRight.png'}}">
+                                        <img src="{{'website/human/icon/TriRight.png'}}">
                                     </div>
                                     <div class="ms-2 ">
                                         <a href="{{url('asset_register')}}" class="aa text-dark">संपत्ति रजिस्टर</a>
@@ -66,7 +66,7 @@
                                 </li>
                                 <li class="d-flex mt-2">
                                     <div class="d-flex align-items-center">
-                                        <img src="{{'public/website/human/icon/TriRight.png'}}">
+                                        <img src="{{'website/human/icon/TriRight.png'}}">
                                     </div>
                                     <div class="ms-2 ">
                                         <a href="###" class="aa text-dark">उपयोगकर्ता मैनुअल</a>
@@ -74,7 +74,7 @@
                                 </li>
                                 <li class="d-flex lh-sm mt-2 text-justify">
                                     <div class="d-flex align-items-center">
-                                        <img src="{{'public/website/human/icon/TriRight.png'}}">
+                                        <img src="{{'website/human/icon/TriRight.png'}}">
                                     </div>
                                     <div class="ms-2 ">
                                         <a href="###" class="aa text-dark">
@@ -85,7 +85,7 @@
                                 </li>
                                 <li class="d-flex mt-2">
                                     <div class="d-flex align-items-center">
-                                        <img src="{{'public/website/human/icon/TriRight.png'}}">
+                                        <img src="{{'website/human/icon/TriRight.png'}}">
                                     </div>
                                     <div class="ms-2 ">
                                         <a href="###" class="aa text-dark">मैनुअल ई-रिक्ति मॉड्यूल</a>

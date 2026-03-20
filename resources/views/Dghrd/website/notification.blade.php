@@ -21,7 +21,7 @@
                                     @foreach($notification->reverse() as $news)
                                     <li class="d-flex mt-2">
                                         <div class="d-flex align-items-center">
-                                            <img src="{{asset('public/website/human/icon/TriRight.png')}}">
+                                            <img src="{{asset('website/human/icon/TriRight.png')}}">
                                         </div>
                                         <div class="ms-2">
                                             <a href="{{ asset('Admin/Pdf') }}/{{ $news->pdf }}" class="aa text-dark">{{ $news->heading }}</a>

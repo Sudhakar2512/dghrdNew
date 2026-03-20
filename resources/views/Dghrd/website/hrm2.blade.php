@@ -115,7 +115,7 @@
             <ul style="list-style:none;" class="ms-0 ps-0 lh-lg">
                 <li class="d-flex">
                     <div class="d-flex align-items-center">
-                        <img src="{{asset('public/website/human/icon/caretRight.svg')}}" >
+                        <img src="{{asset('website/human/icon/caretRight.svg')}}" >
                     </div>
                     <div class="ms-2 ">
                         <a href="https://dghrdcbic.gov.in/aparcbec/rvAparLogin.aspx" class="aa txt-clr"target="_blank">APAR Module</a>
@@ -123,7 +123,7 @@
                 </li>
                 <li class="d-flex">
                     <div class="d-flex align-items-center">
-                        <img src="{{asset('public/website/human/icon/caretRight.svg')}}" >
+                        <img src="{{asset('website/human/icon/caretRight.svg')}}" >
                     </div>
                     <div class="ms-2 ">
                        <a href="https://dghrdcbic.gov.in/dpc/"  class="aa txt-clr" target="_blank">DPC Module</a>
@@ -131,7 +131,7 @@
                 </li>
                 <li class="d-flex">
                     <div class="d-flex align-items-center">
-                        <img src="{{asset('public/website/human/icon/caretRight.svg')}}" >
+                        <img src="{{asset('website/human/icon/caretRight.svg')}}" >
                     </div>
                     <div class="ms-2">
                     <a href="https://dghrdcbic.gov.in/infra/"  class="aa txt-clr" target="_blank">SMART-Infra CBIC</a>
@@ -139,7 +139,7 @@
                 </li>
                 <li class="d-flex">
                     <div class="d-flex align-items-center">
-                        <img src="{{asset('public/website/human/icon/caretRight.svg')}}" >
+                        <img src="{{asset('website/human/icon/caretRight.svg')}}" >
                     </div>
                     <div class="ms-2">
                     <a href="https://dghrdcbic.gov.in/dghrdreports/index.asp"  class="aa txt-clr" target="_blank">Upload Reports</a>
@@ -147,7 +147,7 @@
                 </li>
                 <li class="d-flex">
                     <div class="d-flex align-items-center">
-                        <img src="{{asset('public/website/human/icon/caretRight.svg')}}" >
+                        <img src="{{asset('website/human/icon/caretRight.svg')}}" >
                     </div>
                     <div class="ms-2">
                     <a href="https://dghrdcbic.gov.in/swachh/"  class="aa txt-clr" target="_blank">SWACHHTA@CBIC</a>
@@ -155,7 +155,7 @@
                 </li>
                 <li class="d-flex">
                     <div class="d-flex align-items-center">
-                        <img src="{{asset('public/website/human/icon/caretRight.svg')}}" >
+                        <img src="{{asset('website/human/icon/caretRight.svg')}}" >
                     </div>
                     <div class="ms-2">
                      <a href="https://dghrdcbic.gov.in/bhugtaan/" class="aa txt-clr"target="_blank">E-BHUGTAAN Module</a>
@@ -163,7 +163,7 @@
                 </li>
                 <li class="d-flex">
                     <div class="d-flex align-items-center">
-                        <img src="{{asset('public/website/human/icon/caretRight.svg')}}" >
+                        <img src="{{asset('website/human/icon/caretRight.svg')}}" >
                     </div>
                     <div class="ms-2 ">
                     <a href="https://parichay.nic.in/pnv1/assets/login.html?v=8&service=passive&active=true&rm_5=false&continue=https%3A%2F%2Fjan_com%2Fmail%2F&pp=1&scc=1&lmpl=default&ltmplcache=2&emr=1&osid=1&flowName=GlifWebSignIn&flowEntry=ServiceLogin&sid=SPARROWIRS&lang=en"  class="aa txt-clr" target="_blank"> SPARROW-IRS</a>
@@ -171,7 +171,7 @@
                 </li>
                 <li class="d-flex">
                     <div class="d-flex align-items-center">
-                        <img src="{{asset('public/website/human/icon/caretRight.svg')}}" >
+                        <img src="{{asset('website/human/icon/caretRight.svg')}}" >
                     </div>
                     <div class="ms-2">
                     <a href="{{url('/')}}"  class="aa txt-clr" target="_blank"> RTI</a>
@@ -179,7 +179,7 @@
                 </li>
                 <li class="d-flex">
                     <div class="d-flex align-items-center">
-                        <img src="{{asset('public/website/human/icon/caretRight.svg')}}" >
+                        <img src="{{asset('website/human/icon/caretRight.svg')}}" >
                     </div>
                     <div class="ms-2">
                     <a href="https://edgevpn.rcil.gov.in/my.policy" class="aa txt-clr"target="_blank">SPARROW-CBIC</a>
@@ -187,7 +187,7 @@
                 </li>
                 <li class="d-flex">
                     <div class="d-flex align-items-center">
-                        <img src="{{asset('public/website/human/icon/caretRight.svg')}}" >
+                        <img src="{{asset('website/human/icon/caretRight.svg')}}" >
                     </div>
                     <div class="ms-2 ">
                     <a href="https://dghrdcbic.gov.in/communication/"  class="aa txt-clr" target="_blank"> Cadre Restructuring</a>
@@ -195,7 +195,7 @@
                 </li>
                 <li class="d-flex">
                     <div class="d-flex align-items-center">
-                        <img src="{{asset('public/website/human/icon/caretRight.svg')}}" >
+                        <img src="{{asset('website/human/icon/caretRight.svg')}}" >
                     </div>
                     <div class="ms-2 ">
                     <a href="###" class="aa txt-clr">Tenders</a>

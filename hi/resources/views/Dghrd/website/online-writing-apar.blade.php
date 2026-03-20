@@ -30,31 +30,31 @@
                      </thead>
                      <tbody class="text-dark">
                         <tr>
-                           <td class="text-dark d-flex align-items-center text-justify"><img src="{{asset('public/website/human/icon/TriRight.png')}}"><a href="###" class="aa text-dark"> SPARROW-IRS में NRC NO REPORT CERTIFICATE जारी करने के लिए दिशा-निर्देश - संदर्भ।</a></td>
+                           <td class="text-dark d-flex align-items-center text-justify"><img src="{{asset('website/human/icon/TriRight.png')}}"><a href="###" class="aa text-dark"> SPARROW-IRS में NRC NO REPORT CERTIFICATE जारी करने के लिए दिशा-निर्देश - संदर्भ।</a></td>
                            <td class="text-dark">11/08/2023</td>
                         </tr>
                         <tr class="">
-                           <td class="bg-menu-open text-dark d-flex align-items-center text-justify"><img src="{{asset('public/website/human/icon/TriRight.png')}}"><a href="###" class="aa text-dark"> SPARROW-IRS के कस्टोडियन, वैकल्पिक कस्टोडियन और PAR प्रबंधक की सूची 20.03.2023 तक।</a></td>
+                           <td class="bg-menu-open text-dark d-flex align-items-center text-justify"><img src="{{asset('website/human/icon/TriRight.png')}}"><a href="###" class="aa text-dark"> SPARROW-IRS के कस्टोडियन, वैकल्पिक कस्टोडियन और PAR प्रबंधक की सूची 20.03.2023 तक।</a></td>
                            <td class="bg-menu-open text-dark">20/03/2023</td>
                         </tr>
                         <tr>
-                           <td class="text-dark d-flex align-items-center text-justify"><img src="{{asset('public/website/human/icon/TriRight.png')}}"><a href="###" class="aa text-dark"> SPARROW-IRS में IRS C&IT अधिकारियों के लिए APAR ऑनलाइन लिखाई 2022-23 के लिए।</a></td>
+                           <td class="text-dark d-flex align-items-center text-justify"><img src="{{asset('website/human/icon/TriRight.png')}}"><a href="###" class="aa text-dark"> SPARROW-IRS में IRS C&IT अधिकारियों के लिए APAR ऑनलाइन लिखाई 2022-23 के लिए।</a></td>
                            <td class="text-dark">20/03/2023</td>
                         </tr>
                         <tr>
-                           <td class="bg-menu-open text-dark d-flex align-items-center text-justify"><img src="{{asset('public/website/human/icon/TriRight.png')}}"> SPARROW-IRS के कस्टोडियन, वैकल्पिक कस्टोडियन और PAR प्रबंधक की सूची 20.03.2023 तक।</td>
+                           <td class="bg-menu-open text-dark d-flex align-items-center text-justify"><img src="{{asset('website/human/icon/TriRight.png')}}"> SPARROW-IRS के कस्टोडियन, वैकल्पिक कस्टोडियन और PAR प्रबंधक की सूची 20.03.2023 तक।</td>
                            <td class="bg-menu-open text-dark">20/03/2023</td>
                         </tr>
                         <tr>
-                           <td class="text-dark d-flex align-items-center text-justify"><img src="{{asset('public/website/human/icon/TriRight.png')}}"> SPARROW-IRS में NRC NO REPORT CERTIFICATE जारी करने के लिए दिशा-निर्देश - संदर्भ।</td>
+                           <td class="text-dark d-flex align-items-center text-justify"><img src="{{asset('website/human/icon/TriRight.png')}}"> SPARROW-IRS में NRC NO REPORT CERTIFICATE जारी करने के लिए दिशा-निर्देश - संदर्भ।</td>
                            <td class="text-dark">11/08/2023</td>
                         </tr>
                         <tr>
-                           <td class="bg-menu-open text-dark d-flex align-items-center text-justify"><img src="{{asset('public/website/human/icon/TriRight.png')}}"> SPARROW-IRS के कस्टोडियन, वैकल्पिक कस्टोडियन और PAR प्रबंधक की सूची 20.03.2023 तक।</td>
+                           <td class="bg-menu-open text-dark d-flex align-items-center text-justify"><img src="{{asset('website/human/icon/TriRight.png')}}"> SPARROW-IRS के कस्टोडियन, वैकल्पिक कस्टोडियन और PAR प्रबंधक की सूची 20.03.2023 तक।</td>
                            <td class="bg-menu-open text-dark">20/03/2023</td>
                         </tr>
                         <tr>
-                           <td class="text-dark d-flex align-items-center text-justify"><img src="{{asset('public/website/human/icon/TriRight.png')}}"> SPARROW-IRS में NRC NO REPORT CERTIFICATE जारी करने के लिए दिशा-निर्देश - संदर्भ।</td>
+                           <td class="text-dark d-flex align-items-center text-justify"><img src="{{asset('website/human/icon/TriRight.png')}}"> SPARROW-IRS में NRC NO REPORT CERTIFICATE जारी करने के लिए दिशा-निर्देश - संदर्भ।</td>
                            <td class="text-dark">11/08/2023</td>
                         </tr>
                      </tbody>

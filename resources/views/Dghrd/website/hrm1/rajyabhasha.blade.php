@@ -41,7 +41,7 @@
                                                 <a href="' . asset('Admin/Pdf/' . $content->pdf) . '" target="_blank" class="aa text-dark">
                                                     <div class="d-flex align-items-center">
                                                         <div class="me-1">
-                                                            <img src="' . asset('public/website/human/icon/TriRight.png') . '">
+                                                            <img src="' . asset('website/human/icon/TriRight.png') . '">
                                                         </div>
                                                         <div>
                                                              ' . wordwrap($title, 120, "<br>\n", true) . '

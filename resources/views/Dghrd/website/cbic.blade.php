@@ -20,7 +20,7 @@
                     </p>
                 </div>
                 <div class="container text-center my-4">
-                    <img src="{{asset('public/website/human/orgn_cht_2 1.jpg')}}" style="width:80%;">
+                    <img src="{{asset('website/human/orgn_cht_2 1.jpg')}}" style="width:80%;">
                 </div>
             </div> <!--div close for col-lg-9-->
             @include('Dghrd.website.layouts.important_links')

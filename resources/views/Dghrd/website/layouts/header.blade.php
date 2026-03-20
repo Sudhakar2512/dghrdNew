@@ -3,11 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" type="images/x-icon" href="{{asset('public/website/human/icon/dghrd-logo.png')}}" />
+    <link rel="icon" type="images/x-icon" href="{{asset('website/human/icon/dghrd-logo.png')}}" />
     <title>Directorate General of Human Resource Development (HRD)</title>
-    <link rel="stylesheet" href="{{asset('public/website/css/menu.css')}}">
-    <!--<link rel="stylesheet" href="{{asset('public/website/css/bootnavbar.css')}}">-->
-    <link rel="stylesheet" href="{{asset('public/website/css/bootstrap.min.css')}}">
+    <link rel="stylesheet" href="{{asset('website/css/menu.css')}}">
+    <!--<link rel="stylesheet" href="{{asset('website/css/bootnavbar.css')}}">-->
+    <link rel="stylesheet" href="{{asset('website/css/bootstrap.min.css')}}">
     <!--<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -16,7 +16,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
     <link href="https://fonts.googleapis.com/css?family=Raleway:300,400,700" rel="stylesheet">
-    <link rel="stylesheet" href="{{asset('public/website/js/dist/simple-lightbox.css?v2.14.0')}}" />
+    <link rel="stylesheet" href="{{asset('website/js/dist/simple-lightbox.css?v2.14.0')}}" />
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
@@ -74,7 +74,7 @@
       <div class="col-lg-6 col-md-9 col-sm-9 col-7 d-flex align-items-center">
            <!--<div class="d-flex align-item-center">-->
              <div class="d-flex align-items-center">
-               <img src="{{asset('public/website/human/flag.png')}}" alt="indian flag">
+               <img src="{{asset('website/human/flag.png')}}" alt="indian flag">
              </div>
              <div class="ms-2 fw-bold">
                <p style="white-space:nowrap;" class="my-auto">Government of India</p>
@@ -111,10 +111,10 @@
       <div class="col-lg-2 col-md-3 col-sm-3 col-5">
         <div class="d-flex align-items-center" >
            <div>
-             <a href="https://amaxjobs.com/dghrd/" class="text-mute my-auto translate-btn">English</a>
+             <a href="http://127.0.0.1:8000/" class="text-mute my-auto translate-btn">English</a>
            </div>
            <div class="ms-3">
-             <a href="https://amaxjobs.com/dghrd/hi/" class="text-mute my-auto translate-btn">हिन्दी</a>
+             <a href="http://127.0.0.1:8000/hi/" class="text-mute my-auto translate-btn">हिन्दी</a>
            </div>
           <div class="ms-auto">
               <div class="header-search-wrapper">
@@ -150,7 +150,7 @@
 
           <div class="col-lg-2 col-md-2 col-sm-2 col-2 d-flex align-items-center justify-content-center px-0">
             <div class="text-center ">
-              <img src="{{asset('public/website/human/Gov-india.webp')}}" alt="icon" class=" p-1 p-sm-2 head-img" style="width:100%;">
+              <img src="{{asset('website/human/Gov-india.webp')}}" alt="icon" class=" p-1 p-sm-2 head-img" style="width:100%;">
             </div>
           </div>
           <div class="col-lg-8 col-md-8 col-sm-8 col-8 ">
@@ -166,7 +166,7 @@
           </div>
           <div class="col-lg-2 col-md-2 col-sm-2 col-2 d-flex align-items-center justify-content-center px-0">
             <div class="text-center">
-              <img src="{{asset('public/website/human/dghrd-logo.webp')}}" class="p-1 p-sm-2 head-img" alt="icon" style="width:100%;">
+              <img src="{{asset('website/human/dghrd-logo.webp')}}" class="p-1 p-sm-2 head-img" alt="icon" style="width:100%;">
              </div>
           </div>
          

@@ -19,9 +19,9 @@
 	<title>Admin Panel | Directorate General of Human Resource Development (DGHRD)</title>
 
 	<!-- FAVICONS ICON -->
-	<link rel="shortcut icon" type="image/png" href="{{asset('public/website/human/dghrd-logo.webp')}}">
-	<link href="{{asset('public/assets/vendor/bootstrap-select/dist/css/bootstrap-select.min.css')}}" rel="stylesheet">
-    <link href="{{asset('public/assets/css/style.css')}}" rel="stylesheet">
+	<link rel="shortcut icon" type="image/png" href="{{asset('website/human/dghrd-logo.webp')}}">
+	<link href="{{asset('assets/vendor/bootstrap-select/dist/css/bootstrap-select.min.css')}}" rel="stylesheet">
+    <link href="{{asset('assets/css/style.css')}}" rel="stylesheet">
     <script>
         function validateCaptcha() {
             var response = grecaptcha.getResponse();
@@ -57,7 +57,7 @@
 	                        @endif
 	                        
 	                       <div class="col-12 mx-auto row text-center">
-	                           <img src="{{asset('public/website/human/dghrd-logo.webp')}}"  style="height:150px; width:auto;" class="img-fluid text-center mb-4 mx-auto" alt="DGHRD Logo">
+	                           <img src="{{asset('website/human/dghrd-logo.webp')}}"  style="height:150px; width:auto;" class="img-fluid text-center mb-4 mx-auto" alt="DGHRD Logo">
 	                       </div>
 							<!--<h3 class="title">Sign In</h3>-->
 							<!--<p>DGHRD</p>-->
@@ -105,7 +105,7 @@
 							<p>Admin Login.</p>
 						</div>
 						<div class="login-media text-center">
-							<img src="{{asset('public/assets/images/login.png')}}" alt="Logo Image">
+							<img src="{{asset('assets/images/login.png')}}" alt="Logo Image">
 						</div>
 					</div>
                 </div>
@@ -118,12 +118,12 @@
 	Scripts
 ***********************************-->
 <!-- Required vendors -->
- <script src="{{asset('public/assets/vendor/global/global.min.js')}}"></script>
-<script src="{{asset('public/assets/vendor/bootstrap-select/dist/js/bootstrap-select.min.js')}}"></script>
-<script src="{{asset('public/assets/js/deznav-init.js')}}"></script>
-<script src="{{asset('public/assets/js/demo.js')}}"></script>
-  <script src="{{asset('public/assets/js/custom.js')}}"></script>
-<script src="{{asset('public/assets/js/styleSwitcher.js')}}"></script>
+ <script src="{{asset('assets/vendor/global/global.min.js')}}"></script>
+<script src="{{asset('assets/vendor/bootstrap-select/dist/js/bootstrap-select.min.js')}}"></script>
+<script src="{{asset('assets/js/deznav-init.js')}}"></script>
+<script src="{{asset('assets/js/demo.js')}}"></script>
+  <script src="{{asset('assets/js/custom.js')}}"></script>
+<script src="{{asset('assets/js/styleSwitcher.js')}}"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
 
 </body>

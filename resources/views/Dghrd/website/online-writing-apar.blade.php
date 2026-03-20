@@ -26,31 +26,31 @@
                           </thead>
                           <tbody class="text-dark">
                                <tr>
-                                  <td class="text-dark d-flex align-items-center text-justify"><img src="{{asset('public/website/human/icon/TriRight.png')}}"><a href="###" class="aa text-dark"> Guidelines for issuance of NRC NO REPORT CERTIFICATE in SPARROW- IRS -reg.</a></td>
+                                  <td class="text-dark d-flex align-items-center text-justify"><img src="{{asset('website/human/icon/TriRight.png')}}"><a href="###" class="aa text-dark"> Guidelines for issuance of NRC NO REPORT CERTIFICATE in SPARROW- IRS -reg.</a></td>
                                   <td class="text-dark">11/08/2023</td>
                                </tr>
                                <tr class="">
-                                  <td class="bg-menu-open text-dark d-flex align-items-center text-justify"><img src="{{asset('public/website/human/icon/TriRight.png')}}"><a href="###" class="aa text-dark "> List Of Custodian, Alternate Custodian and PAR Manager of SPARROW-IRS as on 20.03.2023.</a></td>
+                                  <td class="bg-menu-open text-dark d-flex align-items-center text-justify"><img src="{{asset('website/human/icon/TriRight.png')}}"><a href="###" class="aa text-dark "> List Of Custodian, Alternate Custodian and PAR Manager of SPARROW-IRS as on 20.03.2023.</a></td>
                                   <td class="bg-menu-open text-dark">20/03/2023</td>
                                </tr>
                                <tr>
-                                  <td class="text-dark d-flex align-items-center text-justify"><img src="{{asset('public/website/human/icon/TriRight.png')}}"><a href="###" class="aa text-dark">Online writing of APAR in SPARROW-IRS for IRS C&IT Officers for the year 2022-23.</a></td>
+                                  <td class="text-dark d-flex align-items-center text-justify"><img src="{{asset('website/human/icon/TriRight.png')}}"><a href="###" class="aa text-dark">Online writing of APAR in SPARROW-IRS for IRS C&IT Officers for the year 2022-23.</a></td>
                                   <td class="text-dark">20/03/2023</td>
                                </tr>
                                <tr >
-                                  <td class="bg-menu-open text-dark  d-flex align-items-center text-justify"><img src="{{asset('public/website/human/icon/TriRight.png')}}"> List Of Custodian, Alternate Custodian and PAR Manager of SPARROW-IRS as on 20.03.2023.</td>
+                                  <td class="bg-menu-open text-dark  d-flex align-items-center text-justify"><img src="{{asset('website/human/icon/TriRight.png')}}"> List Of Custodian, Alternate Custodian and PAR Manager of SPARROW-IRS as on 20.03.2023.</td>
                                   <td class="bg-menu-open text-dark">20/03/2023</td>
                                </tr>
                                <tr>
-                                  <td class="text-dark d-flex align-items-center text-justify"><img src="{{asset('public/website/human/icon/TriRight.png')}}"> Guidelines for issuance of NRC NO REPORT CERTIFICATE in SPARROW- IRS -reg.</td>
+                                  <td class="text-dark d-flex align-items-center text-justify"><img src="{{asset('website/human/icon/TriRight.png')}}"> Guidelines for issuance of NRC NO REPORT CERTIFICATE in SPARROW- IRS -reg.</td>
                                   <td class="text-dark">11/08/2023</td>
                                </tr>
                                <tr>
-                                  <td class="bg-menu-open text-dark  d-flex align-items-center text-justify"><img src="{{asset('public/website/human/icon/TriRight.png')}}"> List Of Custodian, Alternate Custodian and PAR Manager of SPARROW-IRS as on 20.03.2023.</td>
+                                  <td class="bg-menu-open text-dark  d-flex align-items-center text-justify"><img src="{{asset('website/human/icon/TriRight.png')}}"> List Of Custodian, Alternate Custodian and PAR Manager of SPARROW-IRS as on 20.03.2023.</td>
                                   <td class="bg-menu-open text-dark">20/03/2023</td>
                                </tr>
                                <tr>
-                                  <td class="text-dark d-flex align-items-center text-justify"><img src="{{asset('public/website/human/icon/TriRight.png')}}"> Guidelines for issuance of NRC NO REPORT CERTIFICATE in SPARROW- IRS -reg.</td>
+                                  <td class="text-dark d-flex align-items-center text-justify"><img src="{{asset('website/human/icon/TriRight.png')}}"> Guidelines for issuance of NRC NO REPORT CERTIFICATE in SPARROW- IRS -reg.</td>
                                   <td class="text-dark">11/08/2023</td>
                                </tr>
                           </tbody>

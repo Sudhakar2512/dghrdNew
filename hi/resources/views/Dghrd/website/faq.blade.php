@@ -22,10 +22,10 @@
                             <ul style="list-style:none;" class="ms-0 ps-0 lh-lg">
                                 <li class="d-flex">
                                     <div class="d-flex align-items-center">
-                                        <img src="{{'public/website/human/icon/TriRight.png'}}">
+                                        <img src="{{'website/human/icon/TriRight.png'}}">
                                     </div>
                                     <div class="ms-2">
-                                        <a href="{{asset('public/assets/Document/FAQ/_0_FAQ on Swachchta final.doc')}}" class="aa text-dark">
+                                        <a href="{{asset('assets/Document/FAQ/_0_FAQ on Swachchta final.doc')}}" class="aa text-dark">
                                             स्वच्छता कार्य योजना हेल्पलाइन से संबंधित अक्सर पूछे जाने वाले प्रश्न (FAQ) :- 011-25815870 मोबाइल:- 09599658978
                                         </a>
                                     </div>

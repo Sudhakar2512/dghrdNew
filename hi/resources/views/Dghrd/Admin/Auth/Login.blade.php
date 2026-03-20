@@ -17,8 +17,8 @@
 	<title>DGHRD Admin Panel</title>
 	<!-- FAVICONS ICON -->
 	<link rel="shortcut icon" type="image/png" href="images/favicon.png">
-	<link href="{{asset('public/assets/vendor/bootstrap-select/dist/css/bootstrap-select.min.css')}}" rel="stylesheet">
-	<link href="{{asset('public/assets/css/style.css')}}" rel="stylesheet">
+	<link href="{{asset('assets/vendor/bootstrap-select/dist/css/bootstrap-select.min.css')}}" rel="stylesheet">
+	<link href="{{asset('assets/css/style.css')}}" rel="stylesheet">
 	<script>
 		function validateCaptcha() {
 			var response = grecaptcha.getResponse();
@@ -91,7 +91,7 @@
 							<p>DGHRD Admin Login.</p>
 						</div>
 						<div class="login-media text-center">
-							<img src="{{asset('public/assets/images/login.png')}}" alt="">
+							<img src="{{asset('assets/images/login.png')}}" alt="">
 						</div>
 					</div>
 				</div>
@@ -104,12 +104,12 @@
 	Scripts
 ***********************************-->
 	<!-- Required vendors -->
-	<script src="{{asset('public/assets/vendor/global/global.min.js')}}"></script>
-	<script src="{{asset('public/assets/vendor/bootstrap-select/dist/js/bootstrap-select.min.js')}}"></script>
-	<script src="{{asset('public/assets/js/deznav-init.js')}}"></script>
-	<script src="{{asset('public/assets/js/demo.js')}}"></script>
-	<script src="{{asset('public/assets/js/custom.js')}}"></script>
-	<script src="{{asset('public/assets/js/styleSwitcher.js')}}"></script>
+	<script src="{{asset('assets/vendor/global/global.min.js')}}"></script>
+	<script src="{{asset('assets/vendor/bootstrap-select/dist/js/bootstrap-select.min.js')}}"></script>
+	<script src="{{asset('assets/js/deznav-init.js')}}"></script>
+	<script src="{{asset('assets/js/demo.js')}}"></script>
+	<script src="{{asset('assets/js/custom.js')}}"></script>
+	<script src="{{asset('assets/js/styleSwitcher.js')}}"></script>
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
 
 </body>

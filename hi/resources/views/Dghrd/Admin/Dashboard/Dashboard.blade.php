@@ -31,8 +31,8 @@
         <div class="container-full">
             <section class="content">
                 <div>
-                    <!-- <img src="{{ asset('public/assets/images/bg-19.png')}}" class="hold-transition light-skin theme-primary bg-img" style="background-position: bottom right; height:500px;"> -->
-                    <img src="{{ asset('public/assets/images/dghrd-logo.webp')}}" class="hold-transition light-skin theme-primary bg-img" style="background-position: bottom right;">
+                    <!-- <img src="{{asset('assets/images/bg-19.png')}}" class="hold-transition light-skin theme-primary bg-img" style="background-position: bottom right; height:500px;"> -->
+                    <img src="{{asset('assets/images/dghrd-logo.webp')}}" class="hold-transition light-skin theme-primary bg-img" style="background-position: bottom right;">
                     <h1 class="dashboard-heading">
                       Directorate General of Human Resource Development
                     </h1>

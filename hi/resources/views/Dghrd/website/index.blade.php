@@ -27,7 +27,7 @@
       <a class="aa" href="{{url('/manuals')}}" aria-label="मैनुअल देखें">
         <div class="side-menu-card mt-0">
           <div class="side-menu-icon side-icon-left">
-            <img src="{{asset('public/assets/images/side-icon/manual.png')}}" alt="मैनुअल">
+            <img src="{{asset('assets/images/side-icon/manual.png')}}" alt="मैनुअल">
           </div>
           <div class="side-menu-title text-center">
             मैनुअल
@@ -38,7 +38,7 @@
       <a href="{{url('/posting_transfers')}}" class="aa" aria-label="स्थानांतरण और पदस्थापन देखें">
         <div class="side-menu-card">
           <div class="side-menu-icon side-icon-left">
-            <img src="{{asset('public/assets/images/side-icon/exchanging.png')}}" alt="स्थानांतरण और पदस्थापन">
+            <img src="{{asset('assets/images/side-icon/exchanging.png')}}" alt="स्थानांतरण और पदस्थापन">
           </div>
           <div class="side-menu-title text-center">
             स्थानांतरण और पदस्थापन
@@ -49,7 +49,7 @@
       <a href="{{url('/asset_register')}}" class="aa" aria-label="संपत्ति रजिस्टर देखें">
         <div class="side-menu-card">
           <div class="side-menu-icon side-icon-left">
-            <img src="{{asset('public/assets/images/side-icon/asset-register.png')}}" alt="संपत्ति रजिस्टर">
+            <img src="{{asset('assets/images/side-icon/asset-register.png')}}" alt="संपत्ति रजिस्टर">
           </div>
           <div class="side-menu-title text-center">
             संपत्ति रजिस्टर
@@ -60,7 +60,7 @@
       <a href="{{url('/schemes')}}" class="aa" aria-label="कल्याणकारी योजनाएँ देखें">
         <div class="side-menu-card">
           <div class="side-menu-icon side-icon-left">
-            <img src="{{asset('public/assets/images/side-icon/welfare.png')}}" alt="कल्याणकारी योजनाएँ">
+            <img src="{{asset('assets/images/side-icon/welfare.png')}}" alt="कल्याणकारी योजनाएँ">
           </div>
           <div class="side-menu-title text-center">
             कल्याणकारी योजनाएँ
@@ -71,7 +71,7 @@
       <a class="aa" href="{{url('/HR-con')}}" aria-label="एचआर सम्मेलन देखें">
         <div class="side-menu-card">
           <div class="side-menu-icon side-icon-left">
-            <img src="{{asset('public/assets/images/side-icon/restructuring.png')}}" alt="एचआर सम्मेलन">
+            <img src="{{asset('assets/images/side-icon/restructuring.png')}}" alt="एचआर सम्मेलन">
           </div>
           <div class="side-menu-title text-center">
             एचआर सम्मेलन
@@ -82,7 +82,7 @@
       <a class="aa" href="{{url('/civil_list')}}" aria-label="सिविल सूची देखें">
         <div class="side-menu-card">
           <div class="side-menu-icon side-icon-left">
-            <img src="{{asset('public/assets/images/side-icon/civil-list.png')}}" alt="सिविल सूची">
+            <img src="{{asset('assets/images/side-icon/civil-list.png')}}" alt="सिविल सूची">
           </div>
           <div class="side-menu-title text-center">
             सिविल सूची
@@ -93,7 +93,7 @@
       <a class="aa" href="https://demo.riveyrainfotech.com/Apar_module/login" target="_blank" aria-label="एपीएआर मॉड्यूल देखें">
         <div class="side-menu-card">
           <div class="side-menu-icon side-icon-left">
-            <img src="{{asset('public/assets/images/side-icon/apar-module.png')}}" alt="एपीएआर मॉड्यूल">
+            <img src="{{asset('assets/images/side-icon/apar-module.png')}}" alt="एपीएआर मॉड्यूल">
           </div>
           <div class="side-menu-title text-center">
             एपीएआर मॉड्यूल
@@ -104,7 +104,7 @@
       <a class="aa" href="{{url('/infrastructure_projects')}}" aria-label="चालू/आगामी अवसंरचना परियोजनाएँ देखें">
         <div class="side-menu-card">
           <div class="side-menu-icon side-icon-left">
-            <img src="{{asset('public/assets/images/side-icon/project.png')}}" alt="अवसंरचना परियोजनाएँ">
+            <img src="{{asset('assets/images/side-icon/project.png')}}" alt="अवसंरचना परियोजनाएँ">
           </div>
           <div class="side-menu-title text-center">
             चालू/आगामी अवसंरचना परियोजनाएँ
@@ -115,7 +115,7 @@
       <a class="aa" href="{{url('/apar')}}" aria-label="लापता एपीएआर/IPR देखें">
         <div class="side-menu-card">
           <div class="side-menu-icon side-icon-left">
-            <img src="{{asset('public/assets/images/side-icon/missing.png')}}" alt="लापता एपीएआर/IPR">
+            <img src="{{asset('assets/images/side-icon/missing.png')}}" alt="लापता एपीएआर/IPR">
           </div>
           <div class="side-menu-title text-center">
             लापता एपीएआर/आईपीआर
@@ -126,7 +126,7 @@
       <a class="aa" href="{{url('/half_yearly_brochure')}}" aria-label="अर्धवार्षिक पुस्तिका देखें">
         <div class="side-menu-card mb-0">
           <div class="side-menu-icon side-icon-left">
-            <img src="{{asset('public/assets/images/side-icon/brochure.png')}}" alt="अर्धवार्षिक पुस्तिका">
+            <img src="{{asset('assets/images/side-icon/brochure.png')}}" alt="अर्धवार्षिक पुस्तिका">
           </div>
           <div class="side-menu-title text-center">
             अर्धवार्षिक पुस्तिका
@@ -137,7 +137,7 @@
       <a class="aa" href="{{url('/rti')}}" aria-label="सूचना का अधिकार (RTI) देखें">
         <div class="side-menu-card mb-0">
           <div class="side-menu-icon side-icon-left">
-            <img src="{{asset('public/assets/images/side-icon/RTI.png')}}" alt="सूचना का अधिकार">
+            <img src="{{asset('assets/images/side-icon/RTI.png')}}" alt="सूचना का अधिकार">
           </div>
           <div class="side-menu-title text-center">
             सूचना का अधिकार (आरटीआई)
@@ -155,7 +155,7 @@
             डीपीसी मॉड्यूल (समूह बी और सी अधिकारी)
           </div>
           <div class="side-menu-icon side-icon-right">
-            <img src="{{asset('public/assets/images/side-icon/businessman.png')}}" alt="डीपीसी मॉड्यूल">
+            <img src="{{asset('assets/images/side-icon/businessman.png')}}" alt="डीपीसी मॉड्यूल">
           </div>
         </div>
       </a>
@@ -166,7 +166,7 @@
             स्मार्ट-इन्फ्रा सीबीआईसी
           </div>
           <div class="side-menu-icon side-icon-right">
-            <img src="{{asset('public/assets/images/side-icon/swachhta.png')}}" alt="स्मार्ट-इन्फ्रा CBIC">
+            <img src="{{asset('assets/images/side-icon/swachhta.png')}}" alt="स्मार्ट-इन्फ्रा CBIC">
           </div>
         </div>
       </a>
@@ -177,7 +177,7 @@
             रिपोर्ट अपलोड करें
           </div>
           <div class="side-menu-icon side-icon-right">
-            <img src="{{asset('public/assets/images/side-icon/upload.png')}}" alt="रिपोर्ट अपलोड करें">
+            <img src="{{asset('assets/images/side-icon/upload.png')}}" alt="रिपोर्ट अपलोड करें">
           </div>
         </div>
       </a>
@@ -188,7 +188,7 @@
             स्वच्छता@CBIC
           </div>
           <div class="side-menu-icon side-icon-right">
-            <img src="{{asset('public/assets/images/side-icon/environment.png')}}" alt="स्वच्छता@CBIC">
+            <img src="{{asset('assets/images/side-icon/environment.png')}}" alt="स्वच्छता@CBIC">
           </div>
         </div>
       </a>
@@ -199,7 +199,7 @@
             ई-भुगतान मॉड्यूल
           </div>
           <div class="side-menu-icon side-icon-right">
-            <img src="{{asset('public/assets/images/side-icon/bhugtan.png')}}" alt="ई-भुगतान मॉड्यूल">
+            <img src="{{asset('assets/images/side-icon/bhugtan.png')}}" alt="ई-भुगतान मॉड्यूल">
           </div>
         </div>
       </a>
@@ -210,7 +210,7 @@
             वार्षिक वाहन रिपोर्ट
           </div>
           <div class="side-menu-icon side-icon-right">
-            <img src="{{asset('public/assets/images/side-icon/vehicle-report.png')}}" alt="वार्षिक वाहन रिपोर्ट">
+            <img src="{{asset('assets/images/side-icon/vehicle-report.png')}}" alt="वार्षिक वाहन रिपोर्ट">
           </div>
         </div>
       </a>
@@ -221,7 +221,7 @@
             स्पैरो-आईआरएस/सीबीआईसी
           </div>
           <div class="side-menu-icon side-icon-right">
-            <img src="{{asset('public/assets/images/side-icon/sparrow-irs.png')}}" alt="स्पैरो-आईआरएस CBIC">
+            <img src="{{asset('assets/images/side-icon/sparrow-irs.png')}}" alt="स्पैरो-आईआरएस CBIC">
           </div>
         </div>
       </a>
@@ -232,7 +232,7 @@
             आईपीआर स्थिति (आईआरएस-सीबीआईसी)
           </div>
           <div class="side-menu-icon side-icon-right">
-            <img src="{{asset('public/assets/images/side-icon/RTI.png')}}" alt="आरटीआई">
+            <img src="{{asset('assets/images/side-icon/RTI.png')}}" alt="आरटीआई">
           </div>
         </div>
       </a>
@@ -243,7 +243,7 @@
             नियमितीकरण
           </div>
           <div class="side-menu-icon side-icon-right">
-            <img src="{{asset('public/assets/images/side-icon/training.png')}}" alt="नियमितीकरण">
+            <img src="{{asset('assets/images/side-icon/training.png')}}" alt="नियमितीकरण">
           </div>
         </div>
       </a>
@@ -254,7 +254,7 @@
             अभिलेखागार
           </div>
           <div class="side-menu-icon side-icon-right">
-            <img src="{{asset('public/assets/images/side-icon/archive.png')}}" alt="अभिलेखागार">
+            <img src="{{asset('assets/images/side-icon/archive.png')}}" alt="अभिलेखागार">
           </div>
         </div>
       </a>
@@ -265,7 +265,7 @@
             निविदाएं
           </div>
           <div class="side-menu-icon side-icon-right">
-            <img src="{{asset('public/assets/images/side-icon/tender.png')}}" alt="निविदाएं">
+            <img src="{{asset('assets/images/side-icon/tender.png')}}" alt="निविदाएं">
           </div>
         </div>
       </a>
@@ -308,7 +308,7 @@
             <div class="card-body p-2">
               <div class="leader-detail">
                 <div class="leader-img mx-auto">
-                  <img src="{{asset('public/website/human/leader1.webp')}}" alt="श्रीमती निर्मला सीतारमण">
+                  <img src="{{asset('website/human/leader1.webp')}}" alt="श्रीमती निर्मला सीतारमण">
                 </div>
                 <div class="leader-name">
                   <h6 class="my-auto">श्रीमती निर्मला सीतारमण</h6>
@@ -319,7 +319,7 @@
 
               <div class="leader-detail">
                 <div class="leader-img mx-auto">
-                  <img src="{{asset('public/website/human/leader2.webp')}}" alt="श्री पंकज चौधरी">
+                  <img src="{{asset('website/human/leader2.webp')}}" alt="श्री पंकज चौधरी">
                 </div>
                 <div class="leader-name">
                   <h6 class="my-auto">श्री पंकज चौधरी</h6>

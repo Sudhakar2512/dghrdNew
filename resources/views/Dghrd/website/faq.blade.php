@@ -20,10 +20,10 @@
                             <ul style="list-style:none;" class="ms-0 ps-0 lh-lg">
                                 <li class="d-flex">
                                     <div class="d-flex align-items-center">
-                                        <img src="{{'public/website/human/icon/TriRight.png'}}" >
+                                        <img src="{{'website/human/icon/TriRight.png'}}" >
                                     </div>
                                     <div class="ms-2 ">
-                                        <a href="{{asset('public/assets/Document/FAQ/_0_FAQ on Swachchta final.doc')}}" class="aa text-dark">Frequently asked questions (FAQ) related to Swachhta Action Plan Helpline :- 011- 25815870 Mob:- 09599658978</a>
+                                        <a href="{{asset('assets/Document/FAQ/_0_FAQ on Swachchta final.doc')}}" class="aa text-dark">Frequently asked questions (FAQ) related to Swachhta Action Plan Helpline :- 011- 25815870 Mob:- 09599658978</a>
                                     </div>
                                 </li>
                             </ul>

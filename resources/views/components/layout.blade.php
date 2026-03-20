@@ -19,23 +19,23 @@
 	<!-- PAGE TITLE HERE -->
 	<title>DGHRD Admin - Dashboard</title>
 	<!-- FAVICONS ICON -->
-	<link rel="shortcut icon" type="image/png" href="{{ asset('public/website/human/dghrd-logo.webp')}}">
+	<link rel="shortcut icon" type="image/png" href="{{asset('website/human/dghrd-logo.webp')}}">
 
-	<link href="{{asset('public/assets/vendor/bootstrap-select/dist/css/bootstrap-select.min.css')}}" rel="stylesheet">
-	<link href="{{asset('public/assets/vendor/swiper/css/swiper-bundle.min.css')}}" rel="stylesheet">
+	<link href="{{asset('assets/vendor/bootstrap-select/dist/css/bootstrap-select.min.css')}}" rel="stylesheet">
+	<link href="{{asset('assets/vendor/swiper/css/swiper-bundle.min.css')}}" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css2?family=Material+Icons" rel="stylesheet">
-	<link rel="stylesheet" href="{{asset('public/assets/cdnjs.cloudflare.com/ajax/libs/noUiSlider/14.6.4/nouislider.min.css')}}">
-	<link href="{{asset('public/assets/vendor/datatables/css/jquery.dataTables.min.css')}}" rel="stylesheet">
-	<link href="{{asset('public/assets/vendor/jvmap/jquery-jvectormap.css')}}" rel="stylesheet">
-	<link href="{{asset('public/assets/cdn.datatables.net/buttons/1.6.4/css/buttons.dataTables.min.css')}}" rel="stylesheet">
-	<link href="{{asset('public/assets/vendor/bootstrap-datetimepicker/css/bootstrap-datetimepicker.min.css')}}" rel="stylesheet">
+	<link rel="stylesheet" href="{{asset('assets/cdnjs.cloudflare.com/ajax/libs/noUiSlider/14.6.4/nouislider.min.css')}}">
+	<link href="{{asset('assets/vendor/datatables/css/jquery.dataTables.min.css')}}" rel="stylesheet">
+	<link href="{{asset('assets/vendor/jvmap/jquery-jvectormap.css')}}" rel="stylesheet">
+	<link href="{{asset('assets/cdn.datatables.net/buttons/1.6.4/css/buttons.dataTables.min.css')}}" rel="stylesheet">
+	<link href="{{asset('assets/vendor/bootstrap-datetimepicker/css/bootstrap-datetimepicker.min.css')}}" rel="stylesheet">
 
 	<!-- tagify-css -->
-	<link href="{{asset('public/assets/vendor/tagify/dist/tagify.css')}}" rel="stylesheet">
+	<link href="{{asset('assets/vendor/tagify/dist/tagify.css')}}" rel="stylesheet">
 
 	<!-- Style css -->
-   <link href="{{asset('public/assets/css/style.css')}}" rel="stylesheet">
-   <link href="{{asset('public/assets/css/custom.css')}}" rel="stylesheet">
+   <link href="{{asset('assets/css/style.css')}}" rel="stylesheet">
+   <link href="{{asset('assets/css/custom.css')}}" rel="stylesheet">
    <style>
 	.close {
 		font-size: 15px;
@@ -68,7 +68,7 @@
     <div id="main-wrapper">
         <div class="nav-header">
             <a href="#" class="brand-logo">
-               <center> <img src="{{asset('public/assets/images/logo.png')}}" alt="logo" style="height: 50px; width: 50px;"></center>
+               <center> <img src="{{asset('assets/images/logo.png')}}" alt="logo" style="height: 50px; width: 50px;"></center>
             </a>
 
             <div class="nav-control">
@@ -951,24 +951,24 @@ Main wrapper end
 Scripts
 ***********************************-->
 <!-- Required vendors -->
-<script src="{{asset('public/assets/vendor/global/global.min.js')}}"></script>
-<script src="{{asset('public/assets/vendor/chart.js/Chart.bundle.min.js')}}"></script>
-<script src="{{asset('public/assets/vendor/bootstrap-select/dist/js/bootstrap-select.min.js')}}"></script>
-<script src="{{asset('public/assets/vendor/apexchart/apexchart.js')}}"></script>
+<script src="{{asset('assets/vendor/global/global.min.js')}}"></script>
+<script src="{{asset('assets/vendor/chart.js/Chart.bundle.min.js')}}"></script>
+<script src="{{asset('assets/vendor/bootstrap-select/dist/js/bootstrap-select.min.js')}}"></script>
+<script src="{{asset('assets/vendor/apexchart/apexchart.js')}}"></script>
 
 <!-- Dashboard 1 -->
-<script src="{{asset('public/assets/js/dashboard/dashboard-1.js')}}"></script>
-<script src="{{asset('public/assets/vendor/draggable/draggable.js')}}"></script>
+<script src="{{asset('assets/js/dashboard/dashboard-1.js')}}"></script>
+<script src="{{asset('assets/vendor/draggable/draggable.js')}}"></script>
 
 
 <!-- tagify -->
-<script src="{{asset('public/assets/vendor/tagify/dist/tagify.js')}}"></script>
+<script src="{{asset('assets/vendor/tagify/dist/tagify.js')}}"></script>
 
-<script src="{{asset('public/assets/vendor/datatables/js/jquery.dataTables.min.js')}}"></script>
-<script src="{{asset('public/assets/vendor/datatables/js/dataTables.buttons.min.js')}}"></script>
-<script src="{{asset('public/assets/vendor/datatables/js/buttons.html5.min.js')}}"></script>
-<script src="{{asset('public/assets/vendor/datatables/js/jszip.min.js')}}"></script>
-<script src="{{asset('public/assets/js/plugins-init/datatables.init.js')}}"></script>
+<script src="{{asset('assets/vendor/datatables/js/jquery.dataTables.min.js')}}"></script>
+<script src="{{asset('assets/vendor/datatables/js/dataTables.buttons.min.js')}}"></script>
+<script src="{{asset('assets/vendor/datatables/js/buttons.html5.min.js')}}"></script>
+<script src="{{asset('assets/vendor/datatables/js/jszip.min.js')}}"></script>
+<script src="{{asset('assets/js/plugins-init/datatables.init.js')}}"></script>
 
 <!-- Apex Chart -->
 <script>
@@ -998,19 +998,19 @@ Scripts
     });
 </script>
 
-<script src="{{asset('public/assets/vendor/bootstrap-datetimepicker/js/moment.js')}}"></script>
-<script src="{{asset('public/assets/vendor/bootstrap-datetimepicker/js/bootstrap-datetimepicker.min.js')}}"></script>
+<script src="{{asset('assets/vendor/bootstrap-datetimepicker/js/moment.js')}}"></script>
+<script src="{{asset('assets/vendor/bootstrap-datetimepicker/js/bootstrap-datetimepicker.min.js')}}"></script>
 
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
 
 <!-- Vectormap -->
-<script src="{{asset('public/assets/vendor/jqvmap/js/jquery.vmap.min.js')}}"></script>
-<script src="{{asset('public/assets/vendor/jqvmap/js/jquery.vmap.world.js')}}"></script>
-<script src="{{asset('public/assets/vendor/jqvmap/js/jquery.vmap.usa.js')}}"></script>
-<script src="{{asset('public/assets/js/custom.js')}}"></script>
-<script src="{{asset('public/assets/js/deznav-init.js')}}"></script>
-<script src="{{asset('public/assets/js/demo.js')}}"></script>
-<script src="{{asset('public/assets/js/styleSwitcher.js')}}"></script>
+<script src="{{asset('assets/vendor/jqvmap/js/jquery.vmap.min.js')}}"></script>
+<script src="{{asset('assets/vendor/jqvmap/js/jquery.vmap.world.js')}}"></script>
+<script src="{{asset('assets/vendor/jqvmap/js/jquery.vmap.usa.js')}}"></script>
+<script src="{{asset('assets/js/custom.js')}}"></script>
+<script src="{{asset('assets/js/deznav-init.js')}}"></script>
+<script src="{{asset('assets/js/demo.js')}}"></script>
+<script src="{{asset('assets/js/styleSwitcher.js')}}"></script>
 
 <script>
 jQuery(document).ready(function(){

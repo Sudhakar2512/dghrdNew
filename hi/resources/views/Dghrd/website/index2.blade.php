@@ -54,7 +54,7 @@
                 @if($news->pdf)
                 <div class="d-flex border-bottom my-2">
                     <div>
-                        <img src="{{asset('public/website/human/icon/TriRight.png')}}">
+                        <img src="{{asset('website/human/icon/TriRight.png')}}">
                     </div>
                     <div class="ms-2">
                         <p class="mb-2">
@@ -79,7 +79,7 @@
                 @if($duplicate->pdf)
                 <div class="d-flex border-bottom my-2">
                     <div>
-                        <img src="{{asset('public/website/human/icon/TriRight.png')}}">
+                        <img src="{{asset('website/human/icon/TriRight.png')}}">
                     </div>
                     <div class="ms-2">
                         <p class="mb-2">
@@ -172,7 +172,7 @@
         <!--  <ul style="list-style:none;" class="ms-0 ps-0 lh-lg">-->
         <!--                    <li class="d-flex li-slide">-->
         <!--                        <div class="d-flex align-items-center">-->
-        <!--                            <img src="{{asset('public/website/human/icon/caretRight.svg')}}" >-->
+        <!--                            <img src="{{asset('website/human/icon/caretRight.svg')}}" >-->
         <!--                        </div>-->
         <!--                        <div class="ms-2 ">-->
         <!--                            <a href="https://dghrdcbic.gov.in/aparcbec/rvAparLogin.aspx" class="aa txt-clr"target="_blank">APAR Module</a>-->
@@ -180,7 +180,7 @@
         <!--                    </li>-->
         <!--                    <li class="d-flex li-slide">-->
         <!--                        <div class="d-flex align-items-center">-->
-        <!--                            <img src="{{asset('public/website/human/icon/caretRight.svg')}}" >-->
+        <!--                            <img src="{{asset('website/human/icon/caretRight.svg')}}" >-->
         <!--                        </div>-->
         <!--                        <div class="ms-2 ">-->
         <!--                           <a href="https://dghrdcbic.gov.in/dpc/" class="aa  txt-clr"target="_blank">DPC Module</a>-->
@@ -188,7 +188,7 @@
         <!--                    </li>-->
         <!--                    <li class="d-flex li-slide">-->
         <!--                        <div class="d-flex align-items-center">-->
-        <!--                            <img src="{{asset('public/website/human/icon/caretRight.svg')}}" >-->
+        <!--                            <img src="{{asset('website/human/icon/caretRight.svg')}}" >-->
         <!--                        </div>-->
         <!--                        <div class="ms-2">-->
         <!--                        <a href="https://dghrdcbic.gov.in/infra/" class="aa  txt-clr"target="_blank">SMART-Infra CBIC</a>-->
@@ -196,7 +196,7 @@
         <!--                    </li>-->
         <!--                    <li class="d-flex li-slide ">-->
         <!--                        <div class="d-flex align-items-center">-->
-        <!--                            <img src="{{asset('public/website/human/icon/caretRight.svg')}}" >-->
+        <!--                            <img src="{{asset('website/human/icon/caretRight.svg')}}" >-->
         <!--                        </div>-->
         <!--                        <div class="ms-2">-->
         <!--                        <a href="https://dghrdcbic.gov.in/dghrdreports/index.asp" class="aa  txt-clr"target="_blank">Upload Reports</a>-->
@@ -204,7 +204,7 @@
         <!--                    </li>-->
         <!--                    <li class="d-flex li-slide">-->
         <!--                        <div class="d-flex align-items-center">-->
-        <!--                            <img src="{{asset('public/website/human/icon/caretRight.svg')}}" >-->
+        <!--                            <img src="{{asset('website/human/icon/caretRight.svg')}}" >-->
         <!--                        </div>-->
         <!--                        <div class="ms-2">-->
         <!--                        <a href="https://dghrdcbic.gov.in/swachh/" class="aa  txt-clr"target="_blank">SWACHHTA@CBIC</a>-->
@@ -212,7 +212,7 @@
         <!--                    </li>-->
         <!--                    <li class="d-flex li-slide">-->
         <!--                        <div class="d-flex align-items-center">-->
-        <!--                            <img src="{{asset('public/website/human/icon/caretRight.svg')}}" >-->
+        <!--                            <img src="{{asset('website/human/icon/caretRight.svg')}}" >-->
         <!--                        </div>-->
         <!--                        <div class="ms-2">-->
         <!--                         <a href="https://dghrdcbic.gov.in/bhugtaan/" class="aa txt-clr"target="_blank">E-BHUGTAAN Module</a>-->
@@ -220,7 +220,7 @@
         <!--                    </li>-->
         <!--                    <li class="d-flex li-slide">-->
         <!--                        <div class="d-flex align-items-center">-->
-        <!--                            <img src="{{asset('public/website/human/icon/caretRight.svg')}}" >-->
+        <!--                            <img src="{{asset('website/human/icon/caretRight.svg')}}" >-->
         <!--                        </div>-->
         <!--                        <div class="ms-2">-->
         <!--                        <a href="https://parichay.nic.in/pnv1/assets/login.html?v=8&service=passive&active=true&rm_5=false&continue=https%3A%2F%2Fjan_com%2Fmail%2F&pp=1&scc=1&lmpl=default&ltmplcache=2&emr=1&osid=1&flowName=GlifWebSignIn&flowEntry=ServiceLogin&sid=SPARROWIRS&lang=en" class="aa  txt-clr"target="_blank"> SPARROW-IRS</a>-->
@@ -228,7 +228,7 @@
         <!--                    </li>-->
         <!--                    <li class="d-flex li-slide">-->
         <!--                        <div class="d-flex align-items-center">-->
-        <!--                            <img src="{{asset('public/website/human/icon/caretRight.svg')}}" >-->
+        <!--                            <img src="{{asset('website/human/icon/caretRight.svg')}}" >-->
         <!--                        </div>-->
         <!--                        <div class="ms-2">-->
         <!--                        <a href="{{url('/')}}" class="aa  txt-clr"target="_blank"> RTI</a>-->
@@ -236,7 +236,7 @@
         <!--                    </li>-->
         <!--                    <li class="d-flex li-slide">-->
         <!--                        <div class="d-flex align-items-center">-->
-        <!--                            <img src="{{asset('public/website/human/icon/caretRight.svg')}}" >-->
+        <!--                            <img src="{{asset('website/human/icon/caretRight.svg')}}" >-->
         <!--                        </div>-->
         <!--                        <div class="ms-2">-->
         <!--                        <a href="https://edgevpn.rcil.gov.in/my.policy" class="aa txt-clr"target="_blank">SPARROW-CBIC</a>-->
@@ -244,7 +244,7 @@
         <!--                    </li>-->
         <!--                    <li class="d-flex li-slide">-->
         <!--                        <div class="d-flex align-items-center">-->
-        <!--                            <img src="{{asset('public/website/human/icon/caretRight.svg')}}" >-->
+        <!--                            <img src="{{asset('website/human/icon/caretRight.svg')}}" >-->
         <!--                        </div>-->
         <!--                        <div class="ms-2 ">-->
         <!--                        <a href="https://dghrdcbic.gov.in/communication/" class="aa  txt-clr"target="_blank"> Cadre Restructuring</a>-->
@@ -252,7 +252,7 @@
         <!--                    </li>-->
         <!--                    <li class="d-flex li-slide">-->
         <!--                        <div class="d-flex align-items-center">-->
-        <!--                            <img src="{{asset('public/website/human/icon/caretRight.svg')}}" >-->
+        <!--                            <img src="{{asset('website/human/icon/caretRight.svg')}}" >-->
         <!--                        </div>-->
         <!--                        <div class="ms-2 ">-->
         <!--                        <a href="###" class="aa txt-clr">Tenders</a>-->
@@ -273,7 +273,7 @@
                 <tr>
                     <td class="py-1" style="width:35px;">
                          <div class="d-flex align-items-center mt-1">
-                            <img src="{{asset('public/website/human/icon/caretRight.svg')}}" >
+                            <img src="{{asset('website/human/icon/caretRight.svg')}}" >
                          </div>
                     </td>
                     <td class="py-1">
@@ -285,7 +285,7 @@
                 <tr>
                     <td style="width:35px;" class="thm-clr2 py-1">
                          <div class="d-flex align-items-center mt-1">
-                            <img src="{{asset('public/website/human/icon/caretRight.svg')}}" >
+                            <img src="{{asset('website/human/icon/caretRight.svg')}}" >
                          </div>
                     </td>
                     <td class="thm-clr2 py-1">
@@ -297,7 +297,7 @@
                 <tr >
                     <td style="width:35px;" class="py-1" >
                          <div class="d-flex align-items-center mt-1">
-                            <img src="{{asset('public/website/human/icon/caretRight.svg')}}" >
+                            <img src="{{asset('website/human/icon/caretRight.svg')}}" >
                          </div>
                     </td>
                     <td class="py-1" >
@@ -309,7 +309,7 @@
                 <tr>
                     <td style="width:35px;" class="thm-clr2 py-1">
                          <div class="d-flex align-items-center mt-1">
-                            <img src="{{asset('public/website/human/icon/caretRight.svg')}}" >
+                            <img src="{{asset('website/human/icon/caretRight.svg')}}" >
                          </div>
                     </td>
                     <td class="thm-clr2 py-1">
@@ -321,7 +321,7 @@
                 <tr>
                     <td style="width:35px;" class="py-1" >
                          <div class="d-flex align-items-center mt-1">
-                            <img src="{{asset('public/website/human/icon/caretRight.svg')}}" >
+                            <img src="{{asset('website/human/icon/caretRight.svg')}}" >
                          </div>
                     </td>
                     <td class="py-1" >
@@ -333,7 +333,7 @@
                 <tr>
                     <td style="width:35px;" class="thm-clr2 py-1">
                          <div class="d-flex align-items-center mt-1">
-                            <img src="{{asset('public/website/human/icon/caretRight.svg')}}" >
+                            <img src="{{asset('website/human/icon/caretRight.svg')}}" >
                          </div>
                     </td>
                     <td class="thm-clr2 pt-1">
@@ -345,7 +345,7 @@
                 <tr>
                     <td style="width:35px;" class="py-1">
                          <div class="d-flex align-items-center mt-1">
-                            <img src="{{asset('public/website/human/icon/caretRight.svg')}}" >
+                            <img src="{{asset('website/human/icon/caretRight.svg')}}" >
                          </div>
                     </td>
                     <td class="py-1" >
@@ -357,7 +357,7 @@
                 <tr>
                     <td style="width:35px;" class="thm-clr2 py-1">
                          <div class="d-flex align-items-center mt-1">
-                            <img src="{{asset('public/website/human/icon/caretRight.svg')}}" >
+                            <img src="{{asset('website/human/icon/caretRight.svg')}}" >
                          </div>
                     </td>
                     <td class="thm-clr2 py-1">
@@ -369,7 +369,7 @@
                 <tr>
                     <td style="width:35px;" class="py-1" >
                          <div class="d-flex align-items-center mt-1">
-                            <img src="{{asset('public/website/human/icon/caretRight.svg')}}" >
+                            <img src="{{asset('website/human/icon/caretRight.svg')}}" >
                          </div>
                     </td>
                     <td class="py-1" >
@@ -381,7 +381,7 @@
                 <tr >
                     <td style="width:35px;" class="thm-clr2 py-1">
                          <div class="d-flex align-items-center mt-1">
-                            <img src="{{asset('public/website/human/icon/caretRight.svg')}}" >
+                            <img src="{{asset('website/human/icon/caretRight.svg')}}" >
                          </div>
                     </td>
                     <td class="thm-clr2 py-1">
@@ -393,7 +393,7 @@
                 <tr>
                     <td style="width:35px;" class="py-1" >
                          <div class="d-flex align-items-center mt-1">
-                            <img src="{{asset('public/website/human/icon/caretRight.svg')}}" >
+                            <img src="{{asset('website/human/icon/caretRight.svg')}}" >
                          </div>
                     </td>
                     <td class="py-1" >
@@ -414,7 +414,7 @@
     <div class="row mx-auto col-12 d-flex justify-content-evenly">
     <div class="col-lg-3 col-md-6 col-sm-12 mt-4 text-center">
         <a href="{{url('hrm1')}}" style="text-decoration:none;">
-           <div class="card   abt-card wow zoomIn " data-wow-duration="1.5s" data-wow-delay="0.5s"  style="background:url('{{asset('public/website/human/hrm1-bg.jpg')}}'); background-repeat: no-repeat; background-size: cover; border-radius: 10px; width: 100%; height:20vh;">
+           <div class="card   abt-card wow zoomIn " data-wow-duration="1.5s" data-wow-delay="0.5s"  style="background:url('{{asset('website/human/hrm1-bg.jpg')}}'); background-repeat: no-repeat; background-size: cover; border-radius: 10px; width: 100%; height:20vh;">
                   <h4 class="p-3  txt-clr my-auto">HRM 1</h4>
             </div>
         </a>
@@ -422,7 +422,7 @@
 
     <div class="col-lg-3 col-md-6 col-sm-12 mt-4 text-center">
        <a href="{{url('hrm2')}}" style="text-decoration:none;">
-         <div class="card  abt-card wow zoomIn" data-wow-duration="1.5s" data-wow-delay="0.5s" style="background: url('{{asset('public/website/human/hrm1-bg.jpg')}}'); background-repeat: no-repeat; background-size: cover; border-radius: 10px; width: 100%; height: 20vh;">
+         <div class="card  abt-card wow zoomIn" data-wow-duration="1.5s" data-wow-delay="0.5s" style="background: url('{{asset('website/human/hrm1-bg.jpg')}}'); background-repeat: no-repeat; background-size: cover; border-radius: 10px; width: 100%; height: 20vh;">
             <h4 class="p-3 txt-clr my-auto">HRM 2</h4>
          </div>
        </a>
@@ -430,7 +430,7 @@
 
     <div class="col-lg-3 col-md-6 col-sm-12 mt-4 text-center">
        <a href="{{url('infra_emc')}}" style="text-decoration:none;">
-          <div class="card abt-card wow zoomIn" data-wow-duration="1.5s" data-wow-delay="0.5s"style="background: url('{{asset('public/website/human/hrm1-bg.jpg')}}'); background-repeat: no-repeat; background-size: cover; border-radius: 10px; width: 100%; height: 20vh;">
+          <div class="card abt-card wow zoomIn" data-wow-duration="1.5s" data-wow-delay="0.5s"style="background: url('{{asset('website/human/hrm1-bg.jpg')}}'); background-repeat: no-repeat; background-size: cover; border-radius: 10px; width: 100%; height: 20vh;">
                 <h4 class="p-3 txt-clr my-auto">Infra Wing / EMC</h4>
           </div>
        </a>

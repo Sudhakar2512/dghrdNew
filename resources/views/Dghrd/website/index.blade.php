@@ -27,7 +27,7 @@
              <a class="aa" href="{{url('/manuals')}}" aria-label="view manual">
               <div class="side-menu-card mt-0">
                    <div class="side-menu-icon side-icon-left">
-                      <img src="{{asset('public/assets/images/side-icon/manual.png')}}" alt="Manuals">
+                      <img src="{{asset('assets/images/side-icon/manual.png')}}" alt="Manuals">
                    </div>
                    <div class="side-menu-title text-center">
                       Manuals
@@ -38,7 +38,7 @@
             <a href="{{url('/posting_transfers')}}" class="aa" aria-label="view Transfer & Posting">
               <div class="side-menu-card">
                    <div class="side-menu-icon side-icon-left">
-                      <img src="{{asset('public/assets/images/side-icon/exchanging.png')}}" alt="Transfer And Posting">
+                      <img src="{{asset('assets/images/side-icon/exchanging.png')}}" alt="Transfer And Posting">
                    </div>
                    <div class="side-menu-title text-center">
                       Transfer & Posting
@@ -49,7 +49,7 @@
             <a href="{{url('/asset_register')}}" class="aa" aria-label="view Asset Register">
               <div class="side-menu-card">
                    <div class="side-menu-icon side-icon-left">
-                      <img src="{{asset('public/assets/images/side-icon/asset-register.png')}}" alt="Asset register">
+                      <img src="{{asset('assets/images/side-icon/asset-register.png')}}" alt="Asset register">
                    </div>
                    <div class="side-menu-title text-center">
                       Asset Register
@@ -60,7 +60,7 @@
            <a href="{{url('/schemes')}}" class="aa" aria-label="view Welfare Schemes">
               <div class="side-menu-card">
                    <div class="side-menu-icon side-icon-left">
-                      <img src="{{asset('public/assets/images/side-icon/welfare.png')}}" alt="Welfare schemes">
+                      <img src="{{asset('assets/images/side-icon/welfare.png')}}" alt="Welfare schemes">
                    </div>
                    <div class="side-menu-title text-center">
                       Welfare Schemes
@@ -72,7 +72,7 @@
             <!--<a class="aa" href="{{url('/gallery_album')}}" aria-label="view Photo Gallery">-->
             <!--  <div class="side-menu-card">-->
             <!--       <div class="side-menu-icon side-icon-left">-->
-            <!--          <img src="{{asset('public/assets/images/side-icon/gallery.png')}}" alt="Gallery">-->
+            <!--          <img src="{{asset('assets/images/side-icon/gallery.png')}}" alt="Gallery">-->
             <!--       </div>-->
             <!--       <div class="side-menu-title text-center">-->
             <!--          Photo Gallery-->
@@ -85,7 +85,7 @@
             <a class="aa" href="{{url('/HR-con')}}" aria-label="view HR conference">
               <div class="side-menu-card">
                    <div class="side-menu-icon side-icon-left">
-                      <img src="{{asset('public/assets/images/side-icon/restructuring.png')}}" alt=" H R conference">
+                      <img src="{{asset('assets/images/side-icon/restructuring.png')}}" alt=" H R conference">
                    </div>
                    <div class="side-menu-title text-center">
                       HR Conference
@@ -96,7 +96,7 @@
             <a class="aa" href="{{url('/civil_list')}}" aria-label="view civil list">
               <div class="side-menu-card">
                    <div class="side-menu-icon side-icon-left">
-                      <img src="{{asset('public/assets/images/side-icon/civil-list.png')}}" alt="Civil List">
+                      <img src="{{asset('assets/images/side-icon/civil-list.png')}}" alt="Civil List">
                    </div>
                    <div class="side-menu-title text-center">
                       Civil List
@@ -107,7 +107,7 @@
             <a class="aa" href="https://demo.riveyrainfotech.com/Apar_module/login" target="_blank" aria-label="view module">
               <div class="side-menu-card">
                    <div class="side-menu-icon side-icon-left">
-                      <img src="{{asset('public/assets/images/side-icon/apar-module.png')}}" alt="Apar Module">
+                      <img src="{{asset('assets/images/side-icon/apar-module.png')}}" alt="Apar Module">
                    </div>
                    <div class="side-menu-title text-center">
                       APAR Module
@@ -118,7 +118,7 @@
             <a class="aa" href="{{url('/infrastructure_projects')}}" aria-label="view Upcoming Infrastructure">
               <div class="side-menu-card">
                    <div class="side-menu-icon side-icon-left">
-                      <img src="{{asset('public/assets/images/side-icon/project.png')}}" alt="Infrastructure Project">
+                      <img src="{{asset('assets/images/side-icon/project.png')}}" alt="Infrastructure Project">
                    </div>
                    <div class="side-menu-title text-center">
                       Ongoing/Upcoming Infrastructure Projects
@@ -129,7 +129,7 @@
             <a class="aa" href="{{url('/apar')}}" aria-label="view apar/IPR">
               <div class="side-menu-card">
                    <div class="side-menu-icon side-icon-left">
-                      <img src="{{asset('public/assets/images/side-icon/missing.png')}}" alt="Apar Module">
+                      <img src="{{asset('assets/images/side-icon/missing.png')}}" alt="Apar Module">
                    </div>
                    <div class="side-menu-title text-center">
                       Missing APAR/IPR
@@ -140,7 +140,7 @@
             <a class="aa" href="{{url('/half_yearly_brochure')}}" aria-label="view Half Yearly brochure">
               <div class="side-menu-card mb-0">
                    <div class="side-menu-icon side-icon-left">
-                      <img src="{{asset('public/assets/images/side-icon/brochure.png')}}" alt="Half Yearly">
+                      <img src="{{asset('assets/images/side-icon/brochure.png')}}" alt="Half Yearly">
                    </div>
                    <div class="side-menu-title text-center">
                     Half Yearly Brochure
@@ -150,7 +150,7 @@
             <a class="aa" href="{{url('/rti')}}" aria-label="view RTI">
               <div class="side-menu-card mb-0">
                    <div class="side-menu-icon side-icon-left">
-                      <img src="{{asset('public/assets/images/side-icon/RTI.png')}}" alt="Half Yearly">
+                      <img src="{{asset('assets/images/side-icon/RTI.png')}}" alt="Half Yearly">
                    </div>
                    <div class="side-menu-title text-center">
                    RTI
@@ -167,7 +167,7 @@
                      DPC Module for Group B and C Officers
                    </div>
                    <div class="side-menu-icon side-icon-right">
-                     <img src="{{asset('public/assets/images/side-icon/businessman.png')}}" alt="DPC Module">
+                     <img src="{{asset('assets/images/side-icon/businessman.png')}}" alt="DPC Module">
                     </div>
                 </div>
               </a>
@@ -178,7 +178,7 @@
                      SMART-Infra CBIC
                    </div>
                    <div class="side-menu-icon side-icon-right">
-                     <img src="{{asset('public/assets/images/side-icon/swachhta.png')}}" alt="SMART-Infra CBIC">
+                     <img src="{{asset('assets/images/side-icon/swachhta.png')}}" alt="SMART-Infra CBIC">
                     </div>
               </div>
             </a>
@@ -189,7 +189,7 @@
                      Upload Reports
                    </div>
                    <div class="side-menu-icon side-icon-right">
-                     <img src="{{asset('public/assets/images/side-icon/upload.png')}}" alt=" Upload Reports">
+                     <img src="{{asset('assets/images/side-icon/upload.png')}}" alt=" Upload Reports">
                    </div>
               </div>
             </a>
@@ -200,7 +200,7 @@
                      SWACHHTA@CBIC
                    </div>
                    <div class="side-menu-icon side-icon-right">
-                     <img src="{{asset('public/assets/images/side-icon/environment.png')}}" alt="SWACHHTA@CBIC">
+                     <img src="{{asset('assets/images/side-icon/environment.png')}}" alt="SWACHHTA@CBIC">
                     </div>
               </div>
             </a>
@@ -211,7 +211,7 @@
                      E-BHUGTAN Module
                    </div>
                    <div class="side-menu-icon side-icon-right">
-                    <img src="{{asset('public/assets/images/side-icon/bhugtan.png')}}" alt=" E-BHUGTAN Module">
+                    <img src="{{asset('assets/images/side-icon/bhugtan.png')}}" alt=" E-BHUGTAN Module">
                     </div>
               </div>
             </a>
@@ -222,7 +222,7 @@
                      Annual Vehicle Reports
                    </div>
                    <div class="side-menu-icon side-icon-right">
-                     <img src="{{asset('public/assets/images/side-icon/vehicle-report.png')}}" alt="Annual Vehicle Reports">
+                     <img src="{{asset('assets/images/side-icon/vehicle-report.png')}}" alt="Annual Vehicle Reports">
                     </div>
               </div>
             </a>
@@ -233,7 +233,7 @@
                      SPARROW-IRS/CBIC
                    </div> 
                    <div class="side-menu-icon side-icon-right">
-                     <img src="{{asset('public/assets/images/side-icon/sparrow-irs.png')}}" alt="Sparrow IRS CBIC">
+                     <img src="{{asset('assets/images/side-icon/sparrow-irs.png')}}" alt="Sparrow IRS CBIC">
                     </div>
               </div>
             </a>
@@ -244,7 +244,7 @@
                      IPR Status (IRS-CBIC)
                    </div>
                    <div class="side-menu-icon side-icon-right">
-                     <img src="{{asset('public/assets/images/side-icon/RTI.png')}}" alt="RTI">
+                     <img src="{{asset('assets/images/side-icon/RTI.png')}}" alt="RTI">
                     </div>
               </div>
             </a>
@@ -257,7 +257,7 @@
                     Regularization
                    </div>
                    <div class="side-menu-icon side-icon-right">
-                     <img src="{{asset('public/assets/images/side-icon/training.png')}}" alt="Regularization">
+                     <img src="{{asset('assets/images/side-icon/training.png')}}" alt="Regularization">
                     </div>
               </div>
             </a>
@@ -268,7 +268,7 @@
                      Archives
                    </div>
                    <div class="side-menu-icon side-icon-right">
-                     <img src="{{asset('public/assets/images/side-icon/archive.png')}}" alt="Archives">
+                     <img src="{{asset('assets/images/side-icon/archive.png')}}" alt="Archives">
                     </div>
               </div>
             </a>
@@ -279,7 +279,7 @@
                      Tenders
                    </div>
                    <div class="side-menu-icon side-icon-right">
-                     <img src="{{asset('public/assets/images/side-icon/tender.png')}}" alt="Tendor">
+                     <img src="{{asset('assets/images/side-icon/tender.png')}}" alt="Tendor">
                     </div>
               </div>
             </a>
@@ -321,7 +321,7 @@
                                 <div class="card-body p-2">
                                     <div class="leader-detail">
                                         <div class="leader-img mx-auto">
-                                             <img src="{{asset('public/website/human/leader1.webp')}}" alt="Smt. Nirmala Sitharaman">
+                                             <img src="{{asset('website/human/leader1.webp')}}" alt="Smt. Nirmala Sitharaman">
                                         </div>
                                         <div class="leader-name">
                                             <h6 class="my-auto">Smt. Nirmala Sitharaman</h6>
@@ -332,7 +332,7 @@
                 
                                     <div class="leader-detail">
                                         <div class="leader-img mx-auto">
-                                             <img src="{{asset('public/website/human/leader2.webp')}}" alt="Sh. Pankaj Chaudhary">
+                                             <img src="{{asset('website/human/leader2.webp')}}" alt="Sh. Pankaj Chaudhary">
                                         </div>
                                         <div class="leader-name">
                                             <h6 class="my-auto">Sh. Pankaj Chaudhary</h6>

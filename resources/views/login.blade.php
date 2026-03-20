@@ -7,9 +7,9 @@
 	<!-- PAGE TITLE HERE -->
 	<title>Ireda Login</title>
 	
-	<link rel="shortcut icon" type="image/png" href="{{asset('public/assets/images/favicon.png')}}">
-	<link href="{{asset('public/assets/vendor/bootstrap-select/dist/css/bootstrap-select.min.css')}}" rel="stylesheet">
-   <link href="{{asset('public/assets/css/style.css')}}" rel="stylesheet">
+	<link rel="shortcut icon" type="image/png" href="{{asset('assets/images/favicon.png')}}">
+	<link href="{{asset('assets/vendor/bootstrap-select/dist/css/bootstrap-select.min.css')}}" rel="stylesheet">
+   <link href="{{asset('assets/css/style.css')}}" rel="stylesheet">
 
 </head>
 
@@ -77,12 +77,12 @@
                 <div class="col-xl-6 col-lg-6">
 					<div class="pages-left h-100">
 						<div class="login-content">
-							<a href="#"><img src="{{asset('public/assets/images/logo-full.png')}}" class="mb-3 logo-dark" alt=""></a>
-							<a href="#"><img src="{{asset('public/assets/images/logi-white.png')}}" class="mb-3 logo-light" alt=""></a>
+							<a href="#"><img src="{{asset('assets/images/logo-full.png')}}" class="mb-3 logo-dark" alt=""></a>
+							<a href="#"><img src="{{asset('assets/images/logi-white.png')}}" class="mb-3 logo-light" alt=""></a>
 							
 								</div>
 						<div class="login-media text-center">
-							<img src="{{asset('public/assets/images/login.png')}}" alt="">
+							<img src="{{asset('assets/images/login.png')}}" alt="">
 						</div>
 					</div>
                 </div>
@@ -94,12 +94,12 @@
 	Scripts
 ***********************************-->
 <!-- Required vendors -->
- <script src="{{asset('public/assets/vendor/global/global.min.js')}}"></script>
-<script src="{{asset('public/assets/vendor/bootstrap-select/dist/js/bootstrap-select.min.js')}}"></script>
-<script src="{{asset('public/assets/js/deznav-init.js')}}"></script>
-<script src="{{asset('public/assets/js/demo.js')}}"></script>
-  <script src="{{asset('public/assets/js/custom.js')}}"></script>
-<script src="{{asset('public/assets/js/styleSwitcher.js')}}"></script>
+ <script src="{{asset('assets/vendor/global/global.min.js')}}"></script>
+<script src="{{asset('assets/vendor/bootstrap-select/dist/js/bootstrap-select.min.js')}}"></script>
+<script src="{{asset('assets/js/deznav-init.js')}}"></script>
+<script src="{{asset('assets/js/demo.js')}}"></script>
+  <script src="{{asset('assets/js/custom.js')}}"></script>
+<script src="{{asset('assets/js/styleSwitcher.js')}}"></script>
 
 </body>
 

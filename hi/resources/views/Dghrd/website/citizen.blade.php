@@ -31,7 +31,7 @@
 
 
 					<div class="text-center mt-2">
-						<img src="{{asset('public/website/human/chart2.png')}}" id="citizen" width="100%">
+						<img src="{{asset('website/human/chart2.png')}}" id="citizen" width="100%">
 					</div>
 
 					<!--  List 1-->

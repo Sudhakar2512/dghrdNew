@@ -7,7 +7,7 @@
                     <div>
                         <div class="logo-scene">
                             <div class="logo-wrap">
-                                <img src="{{ asset('public/website/human/dghrd-logo.webp') }}" class="logo-animate" />
+                                <img src="{{asset('website/human/dghrd-logo.webp') }}" class="logo-animate" />
                             </div>
                         </div>
                         

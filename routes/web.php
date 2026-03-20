@@ -699,9 +699,3 @@ Route::get('regularization-delete/{id}', [App\Http\Controllers\Admin\HRM1Control
 
 
 
-
-
-
-
-
-

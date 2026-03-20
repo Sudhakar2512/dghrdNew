@@ -10,8 +10,8 @@
     <meta name="referrer" content="same-origin" />
     <meta name="referrer" content="strict-origin" />
     
-    <link rel="shortcut icon" type="image/x-icon" href="{{ asset('public/website/human/dghrd-logo.webp')}}">
-    <!--<link rel="icon" href="{{ asset('public/website/human/dghrd-logo.webp')}}">-->
+    <link rel="shortcut icon" type="image/x-icon" href="{{asset('website/human/dghrd-logo.webp')}}">
+    <!--<link rel="icon" href="{{asset('website/human/dghrd-logo.webp')}}">-->
 
     <title>DGHRD ssAdmin - Dashboard</title>
     
@@ -21,6 +21,6 @@
 	<!-- Style-->  
 	<link rel="stylesheet" href="{{asset('/src/css/style.css')}}">
 	<link rel="stylesheet" href="{{asset('/src/css/skin_color.css')}}">	
-	<link rel="stylesheet" href="{{asset('public/assets/css/custom.css')}}">	
+	<link rel="stylesheet" href="{{asset('assets/css/custom.css')}}">	
  
   </head>

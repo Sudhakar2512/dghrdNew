@@ -35,7 +35,7 @@
                                 @foreach($senior->reverse() as $content)
                                 <tr>
                                     <td class="d-flex align-items-center text-justify">
-                                        <img src="{{ asset('public/website/human/icon/TriRight.png') }}">
+                                        <img src="{{asset('website/human/icon/TriRight.png') }}">
                                         <a href="{{ asset('Admin/Pdf') }}/{{ $content->pdf }}" class="aa text-dark ">{{ $content->tittle }}</a>
                                     </td>
                                     <td class="text-nowrap">{{ date('d/m/Y', strtotime($content->date)) }}</td>

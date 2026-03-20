@@ -38,7 +38,7 @@
                                                 echo '
                                                 <a href="' . asset('Admin/Pdf/' . $com->pdf) . '" target="_blank" class="aa text-dark">
                                                     <div class="d-flex align-items-center">
-                                                        <div class="me-1"><img src="' . asset('public/website/human/icon/TriRight.png') . '"></div>
+                                                        <div class="me-1"><img src="' . asset('website/human/icon/TriRight.png') . '"></div>
                                                         <div>' . wordwrap($title, 120, "<br>\n", true) . '</div>
                                                     </div>
                                                 </a>';
@@ -55,7 +55,7 @@
                                         echo '
                                         <a href="' . asset('Admin/Pdf/' . $content->pdf) . '" target="_blank" class="aa text-dark">
                                             <div class="d-flex align-items-center">
-                                                <div> <img src="' . asset('public/website/human/icon/TriRight.png') . '"></div>
+                                                <div> <img src="' . asset('website/human/icon/TriRight.png') . '"></div>
                                                 <div> ' . wordwrap($title, 120,  true) . '</div>
                                             </div>
 
