@@ -69,7 +69,7 @@
 								<input type="email" class="form-control form-control" name='email' required>
 							</div>
 							<div class="mb-4 position-relative">
-								<label class="mb-1 text-dark">Password</label>
+								<label class="mb-1 text-dark">Passworddd</label>
 								<input type="password" id="dz-password" class="form-control" name='password'required>
 								<span class="show-pass eye">
 
@@ -78,10 +78,10 @@
 
 								</span>
 							</div>
-							<div class="form-group mb-2">
+							<!-- <div class="form-group mb-2">
                                 <label for="g-recaptcha" class="text-muted">Captcha*:</label>
                                 <div class="g-recaptcha" data-sitekey="6Ld-IWQpAAAAAMgHp73vBRn-kBufdMYQWcinc06V"></div>
-                            </div>
+                            </div> -->
 							<div class="form-row d-flex justify-content-between mt-4 mb-2">
 								<!--<div class="mb-4">-->
 								<!--	<a href="{{url('forgot-password')}}" class="btn-link text-primary">Forgot Password?</a>-->
