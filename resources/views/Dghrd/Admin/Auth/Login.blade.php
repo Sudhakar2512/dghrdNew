@@ -69,7 +69,7 @@
 								<input type="email" class="form-control form-control" name='email' required>
 							</div>
 							<div class="mb-4 position-relative">
-								<label class="mb-1 text-dark">Passworddd</label>
+								<label class="mb-1 text-dark">Password</label>
 								<input type="password" id="dz-password" class="form-control" name='password'required>
 								<span class="show-pass eye">
 
