@@ -3,20 +3,19 @@
 
 <div class="container-fluid px-0">
 <div class="news-marquee-div">
-     <div class="news-title-marquee">
-         <p class="my-auto">News Updates</p>
-     </div>
-     
-     <marquee class="news-marquee">
-        <div class="d-flex">
-           <li class="me-4">Press Rlease of decisions of the 53rd GST Council <i class="fa fa-file-pdf-o ms-1 text-danger icon-ani"></i></li>
-           <li class="me-4">Calling for options for posting of Group B Officers to the grade of Assistant Commissioner vide Office order No. 171/2023 dated 10.10.2023-reg. <i class="fa fa-file-pdf-o ms-1 text-danger icon-ani"></i></li>
-           <li class="me-4">Result of Customs Brokers Licensing Oral Examination, 2024 held in the month of June, 2024 <i class="fa fa-file-pdf-o ms-1 text-danger icon-ani"></i></li>
+    <div class="news-title-marquee">News Updates</div>
+
+    <div class="news-marquee-wrapper">
+        <div class="news-marquee-track" id="newsMarqueeTrack">
+            <div class="news-item">Press Release of decisions of the 53rd GST Council <i class="fa fa-file-pdf-o text-danger"></i></div>
+            <div class="news-item">Calling for options for posting of Group B Officers to the grade of Assistant Commissioner <i class="fa fa-file-pdf-o text-danger"></i></div>
+            <div class="news-item">Result of Customs Brokers Licensing Oral Examination, 2024 <i class="fa fa-file-pdf-o text-danger"></i></div>
         </div>
-     </marquee>
-     <div class="news-btn-marquee">
-        <a href="{{url('latest-news')}}" class="aa">View All</a>
-     </div>
+    </div>
+
+    <div class="news-btn-marquee">
+        <a href="{{url('latest-news')}}">View All</a>
+    </div>
 </div>
 </div>
 
@@ -490,6 +489,40 @@ $(document).ready(function () {
     });
 });
 
+</script>
+
+
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+    const track = document.getElementById("newsMarqueeTrack");
+    const wrapper = document.querySelector(".news-marquee-wrapper");
+
+    let pos = wrapper.offsetWidth;
+    const speed = 1; // fixed speed in pixels per frame
+    let isPaused = false;
+
+    function animate() {
+        if (!isPaused) {
+            pos -= speed;
+            track.style.left = pos + "px";
+
+            if (pos < -track.offsetWidth) {
+                pos = wrapper.offsetWidth;
+            }
+        }
+        requestAnimationFrame(animate);
+    }
+
+    wrapper.addEventListener("mouseenter", function () {
+        isPaused = true;
+    });
+
+    wrapper.addEventListener("mouseleave", function () {
+        isPaused = false;
+    });
+
+    animate();
+});
 </script>
 @endsection
 

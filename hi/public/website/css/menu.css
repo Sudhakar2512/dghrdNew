@@ -813,6 +813,7 @@ opacity: 0.8;
   animation: zoomin 2s infinite ease-in-out; /* Smooth animation effect */
   transition: all 2s ease-in-out; /* Smooth transition effect */
 }
+
 @keyframes zoomin {
   0%, 100% {
     transform: scale(1); /* Starting and ending state */
