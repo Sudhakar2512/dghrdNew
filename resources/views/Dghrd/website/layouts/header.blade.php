@@ -111,10 +111,10 @@
       <div class="col-lg-2 col-md-3 col-sm-3 col-5">
         <div class="d-flex align-items-center" >
            <div>
-             <a href="http://127.0.0.1:8000/" class="text-mute my-auto translate-btn">English</a>
+             <a href="{{url('/')}}" class="text-mute my-auto translate-btn">English</a>
            </div>
            <div class="ms-3">
-             <a href="http://127.0.0.1:8000/hi/" class="text-mute my-auto translate-btn">हिन्दी</a>
+             <a href="{{url('/hi')}}" class="text-mute my-auto translate-btn">हिन्दी</a>
            </div>
           <div class="ms-auto">
               <div class="header-search-wrapper">
