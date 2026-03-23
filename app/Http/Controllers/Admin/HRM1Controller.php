@@ -42,7 +42,7 @@ class HRM1Controller extends Controller
 
         $file = Null;
         if ($request->has('pdf')) {
-            $file = $this->UploadImage('Admin/Pdf', '', $request->file('pdf'));
+            $file = $this->UploadImage(public_path('Admin/Pdf'), '', $request->file('pdf'));
         }
         $data = Sparrow::create([
             'tab' => $request->tab,
@@ -64,7 +64,7 @@ class HRM1Controller extends Controller
         $data = Sparrow::find($id);
         $fileName = $data->pdf;
         if ($request->has('pdf')) {
-            $fileName = $this->UploadImage('Admin/Pdf', '', $request->file('pdf'));
+            $fileName = $this->UploadImage(public_path('Admin/Pdf'), '', $request->file('pdf'));
         }
         $data->tab = $request->tab;
         $data->tittle = $request->tittle;
@@ -104,7 +104,7 @@ class HRM1Controller extends Controller
 
         $file = Null;
         if ($request->has('pdf')) {
-            $file = $this->UploadImage('Admin/Pdf', '', $request->file('pdf'));
+            $file = $this->UploadImage(public_path('Admin/Pdf'), '', $request->file('pdf'));
         }
         $data = Apar::create([
             'tittle' => $request->tittle,
@@ -125,7 +125,7 @@ class HRM1Controller extends Controller
         $data = Apar::find($id);
         $fileName = $data->pdf;
         if ($request->has('pdf')) {
-            $fileName = $this->UploadImage('Admin/Pdf', '', $request->file('pdf'));
+            $fileName = $this->UploadImage(public_path('Admin/Pdf'), '', $request->file('pdf'));
         }
         $data->tittle = $request->tittle;
         $data->pdf = $fileName;
@@ -164,7 +164,7 @@ class HRM1Controller extends Controller
 
         $file = Null;
         if ($request->has('pdf')) {
-            $file = $this->UploadImage('Admin/Pdf', '', $request->file('pdf'));
+            $file = $this->UploadImage(public_path('Admin/Pdf'), '', $request->file('pdf'));
         }
         $data = IPR::create([
 
@@ -186,7 +186,7 @@ class HRM1Controller extends Controller
         $data = IPR::find($id);
         $fileName = $data->pdf;
         if ($request->has('pdf')) {
-            $fileName = $this->UploadImage('Admin/Pdf', '', $request->file('pdf'));
+            $fileName = $this->UploadImage(public_path('Admin/Pdf'), '', $request->file('pdf'));
         }
 
         $data->tittle = $request->tittle;
@@ -228,7 +228,7 @@ class HRM1Controller extends Controller
 
         $file = Null;
         if ($request->has('pdf')) {
-            $file = $this->UploadImage('Admin/Pdf', '', $request->file('pdf'));
+            $file = $this->UploadImage(public_path('Admin/Pdf'), '', $request->file('pdf'));
         }
         $data = RecruitmentRules::create([
             'tab' => 'group_a',
@@ -251,7 +251,7 @@ class HRM1Controller extends Controller
         $data = RecruitmentRules::find($id);
         $fileName = $data->pdf;
         if ($request->has('pdf')) {
-            $fileName = $this->UploadImage('Admin/Pdf', '', $request->file('pdf'));
+            $fileName = $this->UploadImage(public_path('Admin/Pdf'), '', $request->file('pdf'));
         }
         $data->sub_tab = $request->subtab;
         $data->tittle = $request->tittle;
@@ -291,7 +291,7 @@ class HRM1Controller extends Controller
 
         $file = Null;
         if ($request->has('pdf')) {
-            $file = $this->UploadImage('Admin/Pdf', '', $request->file('pdf'));
+            $file = $this->UploadImage(public_path('Admin/Pdf'), '', $request->file('pdf'));
         }
         $data = RecruitmentRules::create([
             'tab' => 'group_b',
@@ -314,7 +314,7 @@ class HRM1Controller extends Controller
         $data = RecruitmentRules::find($id);
         $fileName = $data->pdf;
         if ($request->has('pdf')) {
-            $fileName = $this->UploadImage('Admin/Pdf', '', $request->file('pdf'));
+            $fileName = $this->UploadImage(public_path('Admin/Pdf'), '', $request->file('pdf'));
         }
         $data->sub_tab = $request->subtab;
         $data->tittle = $request->tittle;
@@ -353,7 +353,7 @@ class HRM1Controller extends Controller
 
         $file = Null;
         if ($request->has('pdf')) {
-            $file = $this->UploadImage('Admin/Pdf', '', $request->file('pdf'));
+            $file = $this->UploadImage(public_path('Admin/Pdf'), '', $request->file('pdf'));
         }
         $data = RecruitmentRules::create([
             'tab' => 'group_c',
@@ -376,7 +376,7 @@ class HRM1Controller extends Controller
         $data = RecruitmentRules::find($id);
         $fileName = $data->pdf;
         if ($request->has('pdf')) {
-            $fileName = $this->UploadImage('Admin/Pdf', '', $request->file('pdf'));
+            $fileName = $this->UploadImage(public_path('Admin/Pdf'), '', $request->file('pdf'));
         }
         $data->sub_tab = $request->sub_tab;
         $data->tittle = $request->tittle;
@@ -416,7 +416,7 @@ class HRM1Controller extends Controller
 
         $file = Null;
         if ($request->has('pdf')) {
-            $file = $this->UploadImage('Admin/Pdf', '', $request->file('pdf'));
+            $file = $this->UploadImage(public_path('Admin/Pdf'), '', $request->file('pdf'));
         }
         $data = RecruitmentRules::create([
             'tab' => 'canteen_staff',
@@ -439,7 +439,7 @@ class HRM1Controller extends Controller
         $data = RecruitmentRules::find($id);
         $fileName = $data->pdf;
         if ($request->has('pdf')) {
-            $fileName = $this->UploadImage('Admin/Pdf', '', $request->file('pdf'));
+            $fileName = $this->UploadImage(public_path('Admin/Pdf'), '', $request->file('pdf'));
         }
         $data->sub_tab = $request->sub_tab;
         $data->tittle = $request->tittle;
@@ -478,7 +478,7 @@ class HRM1Controller extends Controller
 
         $file = Null;
         if ($request->has('pdf')) {
-            $file = $this->UploadImage('Admin/Pdf', '', $request->file('pdf'));
+            $file = $this->UploadImage(public_path('Admin/Pdf'), '', $request->file('pdf'));
         }
         $data = RecruitmentRules::create([
             'tab' => 'cbn',
@@ -501,7 +501,7 @@ class HRM1Controller extends Controller
         $data = RecruitmentRules::find($id);
         $fileName = $data->pdf;
         if ($request->has('pdf')) {
-            $fileName = $this->UploadImage('Admin/Pdf', '', $request->file('pdf'));
+            $fileName = $this->UploadImage(public_path('Admin/Pdf'), '', $request->file('pdf'));
         }
         $data->sub_tab = $request->sub_tab;
         $data->tittle = $request->tittle;
@@ -541,7 +541,7 @@ class HRM1Controller extends Controller
 
         $file = Null;
         if ($request->has('pdf')) {
-            $file = $this->UploadImage('Admin/Pdf', '', $request->file('pdf'));
+            $file = $this->UploadImage(public_path('Admin/Pdf'), '', $request->file('pdf'));
         }
         $data = RecruitmentRules::create([
             'tab' => 'crcl',
@@ -564,7 +564,7 @@ class HRM1Controller extends Controller
         $data = RecruitmentRules::find($id);
         $fileName = $data->pdf;
         if ($request->has('pdf')) {
-            $fileName = $this->UploadImage('Admin/Pdf', '', $request->file('pdf'));
+            $fileName = $this->UploadImage(public_path('Admin/Pdf'), '', $request->file('pdf'));
         }
         $data->sub_tab = $request->sub_tab;
         $data->tittle = $request->tittle;
@@ -604,7 +604,7 @@ class HRM1Controller extends Controller
 
         $file = Null;
         if ($request->has('pdf')) {
-            $file = $this->UploadImage('Admin/Pdf', '', $request->file('pdf'));
+            $file = $this->UploadImage(public_path('Admin/Pdf'), '', $request->file('pdf'));
         }
         $data = RecruitmentRules::create([
             'tab' => 'dgpm',
@@ -627,7 +627,7 @@ class HRM1Controller extends Controller
         $data = RecruitmentRules::find($id);
         $fileName = $data->pdf;
         if ($request->has('pdf')) {
-            $fileName = $this->UploadImage('Admin/Pdf', '', $request->file('pdf'));
+            $fileName = $this->UploadImage(public_path('Admin/Pdf'), '', $request->file('pdf'));
         }
         $data->sub_tab = $request->sub_tab;
         $data->tittle = $request->tittle;
@@ -668,7 +668,7 @@ class HRM1Controller extends Controller
 
         $file = Null;
         if ($request->has('pdf')) {
-            $file = $this->UploadImage('Admin/Pdf', '', $request->file('pdf'));
+            $file = $this->UploadImage(public_path('Admin/Pdf'), '', $request->file('pdf'));
         }
         $data = RecruitmentRules::create([
             'tab' => 'directorate_of_logistics',
@@ -691,7 +691,7 @@ class HRM1Controller extends Controller
         $data = RecruitmentRules::find($id);
         $fileName = $data->pdf;
         if ($request->has('pdf')) {
-            $fileName = $this->UploadImage('Admin/Pdf', '', $request->file('pdf'));
+            $fileName = $this->UploadImage(public_path('Admin/Pdf'), '', $request->file('pdf'));
         }
         $data->sub_tab = $request->sub_tab;
         $data->tittle = $request->tittle;
@@ -732,7 +732,7 @@ class HRM1Controller extends Controller
 
         $file = Null;
         if ($request->has('pdf')) {
-            $file = $this->UploadImage('Admin/Pdf', '', $request->file('pdf'));
+            $file = $this->UploadImage(public_path('Admin/Pdf'), '', $request->file('pdf'));
         }
         $data = RecruitmentRules::create([
             'tab' => 'dppr',
@@ -755,7 +755,7 @@ class HRM1Controller extends Controller
         $data = RecruitmentRules::find($id);
         $fileName = $data->pdf;
         if ($request->has('pdf')) {
-            $fileName = $this->UploadImage('Admin/Pdf', '', $request->file('pdf'));
+            $fileName = $this->UploadImage(public_path('Admin/Pdf'), '', $request->file('pdf'));
         }
         $data->sub_tab = $request->sub_tab;
         $data->tittle = $request->tittle;
@@ -795,7 +795,7 @@ class HRM1Controller extends Controller
 
         $file = Null;
         if ($request->has('pdf')) {
-            $file = $this->UploadImage('Admin/Pdf', '', $request->file('pdf'));
+            $file = $this->UploadImage(public_path('Admin/Pdf'), '', $request->file('pdf'));
         }
         $data = RecruitmentRules::create([
             'tab' => 'dri',
@@ -818,7 +818,7 @@ class HRM1Controller extends Controller
         $data = RecruitmentRules::find($id);
         $fileName = $data->pdf;
         if ($request->has('pdf')) {
-            $fileName = $this->UploadImage('Admin/Pdf', '', $request->file('pdf'));
+            $fileName = $this->UploadImage(public_path('Admin/Pdf'), '', $request->file('pdf'));
         }
         $data->sub_tab = $request->sub_tab;
         $data->tittle = $request->tittle;
@@ -859,7 +859,7 @@ class HRM1Controller extends Controller
 
         $file = Null;
         if ($request->has('pdf')) {
-            $file = $this->UploadImage('Admin/Pdf', '', $request->file('pdf'));
+            $file = $this->UploadImage(public_path('Admin/Pdf'), '', $request->file('pdf'));
         }
         $data = RecruitmentRules::create([
             'tab' => 'rrs_of_directorates',
@@ -882,7 +882,7 @@ class HRM1Controller extends Controller
         $data = RecruitmentRules::find($id);
         $fileName = $data->pdf;
         if ($request->has('pdf')) {
-            $fileName = $this->UploadImage('Admin/Pdf', '', $request->file('pdf'));
+            $fileName = $this->UploadImage(public_path('Admin/Pdf'), '', $request->file('pdf'));
         }
         $data->sub_tab = $request->sub_tab;
         $data->tittle = $request->tittle;
@@ -921,7 +921,7 @@ class HRM1Controller extends Controller
 
         $file = Null;
         if ($request->has('pdf')) {
-            $file = $this->UploadImage('Admin/Pdf', '', $request->file('pdf'));
+            $file = $this->UploadImage(public_path('Admin/Pdf'), '', $request->file('pdf'));
         }
         $data = RecruitmentRules::create([
             'tab' => 'systum_data_management',
@@ -942,7 +942,7 @@ class HRM1Controller extends Controller
         $data = RecruitmentRules::find($id);
         $fileName = $data->pdf;
         if ($request->has('pdf')) {
-            $fileName = $this->UploadImage('Admin/Pdf', '', $request->file('pdf'));
+            $fileName = $this->UploadImage(public_path('Admin/Pdf'), '', $request->file('pdf'));
         }
         $data->tittle = $request->tittle;
         $data->pdf = $fileName;
@@ -981,7 +981,7 @@ class HRM1Controller extends Controller
 
         $file = Null;
         if ($request->has('pdf')) {
-            $file = $this->UploadImage('Admin/Pdf', '', $request->file('pdf'));
+            $file = $this->UploadImage(public_path('Admin/Pdf'), '', $request->file('pdf'));
         }
         $data = RecruitmentRules::create([
             'tab' => 'telecommunication_wing',
@@ -1002,7 +1002,7 @@ class HRM1Controller extends Controller
         $data = RecruitmentRules::find($id);
         $fileName = $data->pdf;
         if ($request->has('pdf')) {
-            $fileName = $this->UploadImage('Admin/Pdf', '', $request->file('pdf'));
+            $fileName = $this->UploadImage(public_path('Admin/Pdf'), '', $request->file('pdf'));
         }
         $data->tittle = $request->tittle;
         $data->pdf = $fileName;
@@ -1042,7 +1042,7 @@ class HRM1Controller extends Controller
 
         $file = Null;
         if ($request->has('pdf')) {
-            $file = $this->UploadImage('Admin/Pdf', '', $request->file('pdf'));
+            $file = $this->UploadImage(public_path('Admin/Pdf'), '', $request->file('pdf'));
         }
         $data = SeniorityList::create([
             'tittle' => $request->tittle,
@@ -1063,7 +1063,7 @@ class HRM1Controller extends Controller
         $data = SeniorityList::find($id);
         $fileName = $data->pdf;
         if ($request->has('pdf')) {
-            $fileName = $this->UploadImage('Admin/Pdf', '', $request->file('pdf'));
+            $fileName = $this->UploadImage(public_path('Admin/Pdf'), '', $request->file('pdf'));
         }
         $data->tittle = $request->tittle;
         $data->pdf = $fileName;
@@ -1103,7 +1103,7 @@ class HRM1Controller extends Controller
 
         $file = Null;
         if ($request->has('pdf')) {
-            $file = $this->UploadImage('Admin/Pdf', '', $request->file('pdf'));
+            $file = $this->UploadImage(public_path('Admin/Pdf'), '', $request->file('pdf'));
         }
         $data = DPC::create([
             'tab' => $request->tab,
@@ -1125,7 +1125,7 @@ class HRM1Controller extends Controller
         $data = DPC::find($id);
         $fileName = $data->pdf;
         if ($request->has('pdf')) {
-            $fileName = $this->UploadImage('Admin/Pdf', '', $request->file('pdf'));
+            $fileName = $this->UploadImage(public_path('Admin/Pdf'), '', $request->file('pdf'));
         }
         $data->tab = $request->tab;
         $data->tittle = $request->tittle;
@@ -1164,7 +1164,7 @@ class HRM1Controller extends Controller
 
         $file = Null;
         if ($request->has('pdf')) {
-            $file = $this->UploadImage('Admin/Pdf', '', $request->file('pdf'));
+            $file = $this->UploadImage(public_path('Admin/Pdf'), '', $request->file('pdf'));
         }
         $data = EmpanelmentDeputation::create([
             'tittle' => $request->tittle,
@@ -1185,7 +1185,7 @@ class HRM1Controller extends Controller
         $data = EmpanelmentDeputation::find($id);
         $fileName = $data->pdf;
         if ($request->has('pdf')) {
-            $fileName = $this->UploadImage('Admin/Pdf', '', $request->file('pdf'));
+            $fileName = $this->UploadImage(public_path('Admin/Pdf'), '', $request->file('pdf'));
         }
         $data->tittle = $request->tittle;
         $data->pdf = $fileName;
@@ -1224,7 +1224,7 @@ class HRM1Controller extends Controller
 
         $file = Null;
         if ($request->has('pdf')) {
-            $file = $this->UploadImage('Admin/Pdf', '', $request->file('pdf'));
+            $file = $this->UploadImage(public_path('Admin/Pdf'), '', $request->file('pdf'));
         }
         $data = CadreRestructuring2018::create([
             'tittle' => $request->tittle,
@@ -1245,7 +1245,7 @@ class HRM1Controller extends Controller
         $data = CadreRestructuring2018::find($id);
         $fileName = $data->pdf;
         if ($request->has('pdf')) {
-            $fileName = $this->UploadImage('Admin/Pdf', '', $request->file('pdf'));
+            $fileName = $this->UploadImage(public_path('Admin/Pdf'), '', $request->file('pdf'));
         }
         $data->tittle = $request->tittle;
         $data->pdf = $fileName;
@@ -1283,7 +1283,7 @@ class HRM1Controller extends Controller
 
         $file = Null;
         if ($request->has('pdf')) {
-            $file = $this->UploadImage('Admin/Pdf', '', $request->file('pdf'));
+            $file = $this->UploadImage(public_path('Admin/Pdf'), '', $request->file('pdf'));
         }
         $data = SparrowCBIC::create([
             'tittle' => $request->tittle,
@@ -1304,7 +1304,7 @@ class HRM1Controller extends Controller
         $data = SparrowCBIC::find($id);
         $fileName = $data->pdf;
         if ($request->has('pdf')) {
-            $fileName = $this->UploadImage('Admin/Pdf', '', $request->file('pdf'));
+            $fileName = $this->UploadImage(public_path('Admin/Pdf'), '', $request->file('pdf'));
         }
         $data->tittle = $request->tittle;
         $data->pdf = $fileName;
@@ -1343,7 +1343,7 @@ class HRM1Controller extends Controller
 
         $file = Null;
         if ($request->has('pdf')) {
-            $file = $this->UploadImage('Admin/Pdf', '', $request->file('pdf'));
+            $file = $this->UploadImage(public_path('Admin/Pdf'), '', $request->file('pdf'));
         }
         $data = OfficerDetails::create([
             'tittle' => $request->tittle,
@@ -1364,7 +1364,7 @@ class HRM1Controller extends Controller
         $data = OfficerDetails::find($id);
         $fileName = $data->pdf;
         if ($request->has('pdf')) {
-            $fileName = $this->UploadImage('Admin/Pdf', '', $request->file('pdf'));
+            $fileName = $this->UploadImage(public_path('Admin/Pdf'), '', $request->file('pdf'));
         }
         $data->tittle = $request->tittle;
         $data->pdf = $fileName;
@@ -1403,7 +1403,7 @@ class HRM1Controller extends Controller
 
         $file = Null;
         if ($request->has('pdf')) {
-            $file = $this->UploadImage('Admin/Pdf', '', $request->file('pdf'));
+            $file = $this->UploadImage(public_path('Admin/Pdf'), '', $request->file('pdf'));
         }
         $data = VariousCommunicationFieldFormations::create([
             'tittle' => $request->tittle,
@@ -1424,7 +1424,7 @@ class HRM1Controller extends Controller
         $data = VariousCommunicationFieldFormations::find($id);
         $fileName = $data->pdf;
         if ($request->has('pdf')) {
-            $fileName = $this->UploadImage('Admin/Pdf', '', $request->file('pdf'));
+            $fileName = $this->UploadImage(public_path('Admin/Pdf'), '', $request->file('pdf'));
         }
         $data->tittle = $request->tittle;
         $data->pdf = $fileName;
@@ -1460,7 +1460,7 @@ class HRM1Controller extends Controller
 
         $file = Null;
         if ($request->has('pdf')) {
-            $file = $this->UploadImage('Admin/Pdf', '', $request->file('pdf'));
+            $file = $this->UploadImage(public_path('Admin/Pdf'), '', $request->file('pdf'));
         }
         $data = Rajyabhasha::create([
             'tittle' => $request->tittle,
@@ -1481,7 +1481,7 @@ class HRM1Controller extends Controller
         $data = Rajyabhasha::find($id);
         $fileName = $data->pdf;
         if ($request->has('pdf')) {
-            $fileName = $this->UploadImage('Admin/Pdf', '', $request->file('pdf'));
+            $fileName = $this->UploadImage(public_path('Admin/Pdf'), '', $request->file('pdf'));
         }
         $data->tittle = $request->tittle;
         $data->pdf = $fileName;
@@ -1532,7 +1532,7 @@ class HRM1Controller extends Controller
 
         $file = Null;
         if ($request->has('pdf')) {
-            $file = $this->UploadImage('Admin/Pdf', '', $request->file('pdf'));
+            $file = $this->UploadImage(public_path('Admin/Pdf'), '', $request->file('pdf'));
         }
         $data = Regularization::create([
             'title' => $request->title,
@@ -1552,7 +1552,7 @@ class HRM1Controller extends Controller
         $data = Regularization::find($id);
         $fileName = $data->pdf;
         if ($request->has('pdf')) {
-            $fileName = $this->UploadImage('Admin/Pdf', '', $request->file('pdf'));
+            $fileName = $this->UploadImage(public_path('Admin/Pdf'), '', $request->file('pdf'));
         }
         $data->title = $request->title;
         $data->pdf = $fileName;

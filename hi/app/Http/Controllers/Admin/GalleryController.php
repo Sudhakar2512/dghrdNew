@@ -43,7 +43,7 @@ class GalleryController extends Controller
 
         $file = null;
         if ($request->has('image')) {
-            $file = $this->UploadImage('Admin/Images', '', $request->file('image'));
+            $file = $this->UploadImage(public_path('Admin/Images'), '', $request->file('image'));
         }
 
         $data = Gallery::create([
@@ -65,7 +65,7 @@ class GalleryController extends Controller
         $fileName = $gallery->image;
 
         if ($request->has('image')) {
-            $fileName = $this->UploadImage('Admin/Images', '', $request->file('image'));
+            $fileName = $this->UploadImage(public_path('Admin/Images'), '', $request->file('image'));
         }
 
         $gallery->image = $fileName;
@@ -110,7 +110,7 @@ class GalleryController extends Controller
         $file = null;
         if ($request->has('image')) {
              foreach ($request->image as $key => $image) {
-                $data[] =$this->UploadImage('Admin/Images', '', $image);
+                $data[] =$this->UploadImage(public_path('Admin/Images'), '', $image);
             }
         }
 
@@ -136,7 +136,7 @@ class GalleryController extends Controller
     $data = [];
     if ($request->has('image')) {
         foreach ($request->image as $key => $image) {
-            $data[] = $this->UploadImage('Admin/Images', '', $image);
+            $data[] = $this->UploadImage(public_path('Admin/Images'), '', $image);
         }
         
          $album->image = json_encode($data); 

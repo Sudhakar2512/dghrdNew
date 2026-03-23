@@ -39,7 +39,7 @@ class CMSController extends Controller
 
         $file = Null;
         if ($request->has('image')) {
-            $file = $this->UploadImage('Admin/Images', '', $request->file('image'));
+            $file = $this->UploadImage(public_path('Admin/Images'), '', $request->file('image'));
         }
         $data = Slider::create([
             'image' => $file,
@@ -55,7 +55,7 @@ class CMSController extends Controller
         $mini = Slider::find($id);
         $fileName = $mini->image;
         if ($request->has('image')) {
-            $fileName = $this->UploadImage('Admin/Images', '', $request->file('image'));
+            $fileName = $this->UploadImage(public_path('Admin/Images'), '', $request->file('image'));
         }
 
         $mini->image = $fileName;
@@ -100,7 +100,7 @@ class CMSController extends Controller
 
         $file = Null;
         if ($request->has('pdf')) {
-            $file = $this->UploadImage('Admin/Pdf', '', $request->file('pdf'));
+            $file = $this->UploadImage(public_path('Admin/Pdf'), '', $request->file('pdf'));
         }
         $data = Notification::create([
             'heading' => $request->heading,
@@ -119,7 +119,7 @@ class CMSController extends Controller
         $data = Notification::find($id);
         $fileName = $data->pdf;
         if ($request->has('pdf')) {
-            $fileName = $this->UploadImage('Admin/Pdf', '', $request->file('pdf'));
+            $fileName = $this->UploadImage(public_path('Admin/Pdf'), '', $request->file('pdf'));
         }
         $data->heading = $request->heading;
         $data->pdf = $fileName;
@@ -160,7 +160,7 @@ class CMSController extends Controller
         ]);
         $file = Null;
         if ($request->has('image')) {
-            $file = $this->UploadImage('Admin/Images', '', $request->file('image'));
+            $file = $this->UploadImage(public_path('Admin/Images'), '', $request->file('image'));
         }
         $data = MiniSlider::create([
             'image' => $file,
@@ -179,7 +179,7 @@ class CMSController extends Controller
         $data = MiniSlider::find($id);
         $fileName = $data->image;
         if ($request->has('image')) {
-            $fileName = $this->UploadImage('Admin/Images', '', $request->file('image'));
+            $fileName = $this->UploadImage(public_path('Admin/Images'), '', $request->file('image'));
         }
         $data->image = $fileName;
         $data->save();

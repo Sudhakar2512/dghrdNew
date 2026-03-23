@@ -34,7 +34,7 @@ public function project_save(Request $request)
 
     $file = Null;
     if ($request->has('pdf')) {
-        $file = $this->UploadImage('Admin/Pdf', '', $request->file('pdf'));
+        $file = $this->UploadImage(public_path('Admin/Pdf'), '', $request->file('pdf'));
     }
     $data = Project::create([
         'tittle' => $request->tittle,
@@ -55,7 +55,7 @@ public function project_update(Request $request, $id)
     $data = Project::find($id);
     $fileName = $data->pdf;
     if ($request->has('pdf')) {
-        $fileName = $this->UploadImage('Admin/Pdf', '', $request->file('pdf'));
+        $fileName = $this->UploadImage(public_path('Admin/Pdf'), '', $request->file('pdf'));
     }
     $data->tittle = $request->tittle;
     $data->pdf = $fileName;

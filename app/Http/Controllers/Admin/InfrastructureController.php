@@ -51,7 +51,7 @@ class InfrastructureController extends Controller
 
         $file = Null;
         if ($request->has('pdf')) {
-            $file = $this->UploadImage('Admin/Pdf', '', $request->file('pdf'));
+            $file = $this->UploadImage(public_path('Admin/Pdf'), '', $request->file('pdf'));
         }
         $data = InfrastructureOfficerDetail::create([
             'tittle' => $request->tittle,
@@ -72,7 +72,7 @@ class InfrastructureController extends Controller
         $data = InfrastructureOfficerDetail::find($id);
         $fileName = $data->pdf;
         if ($request->has('pdf')) {
-            $fileName = $this->UploadImage('Admin/Pdf', '', $request->file('pdf'));
+            $fileName = $this->UploadImage(public_path('Admin/Pdf'), '', $request->file('pdf'));
         }
         $data->tittle = $request->tittle;
         $data->pdf = $fileName;
@@ -111,7 +111,7 @@ class InfrastructureController extends Controller
 
         $file = Null;
         if ($request->has('pdf')) {
-            $file = $this->UploadImage('Admin/Pdf', '', $request->file('pdf'));
+            $file = $this->UploadImage(public_path('Admin/Pdf'), '', $request->file('pdf'));
         }
         $data = Instruction::create([
             'tittle' => $request->tittle,
@@ -132,7 +132,7 @@ class InfrastructureController extends Controller
         $data = Instruction::find($id);
         $fileName = $data->pdf;
         if ($request->has('pdf')) {
-            $fileName = $this->UploadImage('Admin/Pdf', '', $request->file('pdf'));
+            $fileName = $this->UploadImage(public_path('Admin/Pdf'), '', $request->file('pdf'));
         }
         $data->tittle = $request->tittle;
         $data->pdf = $fileName;
@@ -171,7 +171,7 @@ public function fastTrack_view($id = null)
 
         $file = Null;
         if ($request->has('pdf')) {
-            $file = $this->UploadImage('Admin/Pdf', '', $request->file('pdf'));
+            $file = $this->UploadImage(public_path('Admin/Pdf'), '', $request->file('pdf'));
         }
         $data = FastTrack::create([
             'tittle' => $request->tittle,
@@ -192,7 +192,7 @@ public function fastTrack_view($id = null)
         $data = FastTrack::find($id);
         $fileName = $data->pdf;
         if ($request->has('pdf')) {
-            $fileName = $this->UploadImage('Admin/Pdf', '', $request->file('pdf'));
+            $fileName = $this->UploadImage(public_path('Admin/Pdf'), '', $request->file('pdf'));
         }
         $data->tittle = $request->tittle;
         $data->pdf = $fileName;
@@ -231,7 +231,7 @@ public function ppt_view($id = null)
 
         $file = Null;
         if ($request->has('pdf')) {
-            $file = $this->UploadImage('Admin/Pdf', '', $request->file('pdf'));
+            $file = $this->UploadImage(public_path('Admin/Pdf'), '', $request->file('pdf'));
         }
         $data = InfrastructurePpt::create([
             'tittle' => $request->tittle,
@@ -252,7 +252,7 @@ public function ppt_view($id = null)
         $data = InfrastructurePpt::find($id);
         $fileName = $data->pdf;
         if ($request->has('pdf')) {
-            $fileName = $this->UploadImage('Admin/Pdf', '', $request->file('pdf'));
+            $fileName = $this->UploadImage(public_path('Admin/Pdf'), '', $request->file('pdf'));
         }
         $data->tittle = $request->tittle;
         $data->pdf = $fileName;
@@ -291,7 +291,7 @@ public function manual_view($id = null)
 
         $file = Null;
         if ($request->has('pdf')) {
-            $file = $this->UploadImage('Admin/Pdf', '', $request->file('pdf'));
+            $file = $this->UploadImage(public_path('Admin/Pdf'), '', $request->file('pdf'));
         }
         $data = InfrastructureManual::create([
             'tittle' => $request->tittle,
@@ -312,7 +312,7 @@ public function manual_view($id = null)
         $data = InfrastructureManual::find($id);
         $fileName = $data->pdf;
         if ($request->has('pdf')) {
-            $fileName = $this->UploadImage('Admin/Pdf', '', $request->file('pdf'));
+            $fileName = $this->UploadImage(public_path('Admin/Pdf'), '', $request->file('pdf'));
         }
         $data->tittle = $request->tittle;
         $data->pdf = $fileName;
@@ -351,7 +351,7 @@ public function asset_register_save(Request $request)
 
     $file = Null;
     if ($request->has('pdf')) {
-        $file = $this->UploadImage('Admin/Pdf', '', $request->file('pdf'));
+        $file = $this->UploadImage(public_path('Admin/Pdf'), '', $request->file('pdf'));
     }
     $data = AssetRegister::create([
         'tittle' => $request->tittle,
@@ -372,7 +372,7 @@ public function asset_register_update(Request $request, $id)
     $data = AssetRegister::find($id);
     $fileName = $data->pdf;
     if ($request->has('pdf')) {
-        $fileName = $this->UploadImage('Admin/Pdf', '', $request->file('pdf'));
+        $fileName = $this->UploadImage(public_path('Admin/Pdf'), '', $request->file('pdf'));
     }
     $data->tittle = $request->tittle;
     $data->pdf = $fileName;
@@ -411,7 +411,7 @@ public function land_asset_save(Request $request)
 
     $file = Null;
     if ($request->has('pdf')) {
-        $file = $this->UploadImage('Admin/Pdf', '', $request->file('pdf'));
+        $file = $this->UploadImage(public_path('Admin/Pdf'), '', $request->file('pdf'));
     }
     $data = LandAssets::create([
         'tittle' => $request->tittle,
@@ -432,7 +432,7 @@ public function land_asset_update(Request $request, $id)
     $data = LandAssets::find($id);
     $fileName = $data->pdf;
     if ($request->has('pdf')) {
-        $fileName = $this->UploadImage('Admin/Pdf', '', $request->file('pdf'));
+        $fileName = $this->UploadImage(public_path('Admin/Pdf'), '', $request->file('pdf'));
     }
     $data->tittle = $request->tittle;
     $data->pdf = $fileName;
@@ -470,7 +470,7 @@ public function construction_save(Request $request)
 
     $file = Null;
     if ($request->has('pdf')) {
-        $file = $this->UploadImage('Admin/Pdf', '', $request->file('pdf'));
+        $file = $this->UploadImage(public_path('Admin/Pdf'), '', $request->file('pdf'));
     }
     $data = Construction::create([
         'tittle' => $request->tittle,
@@ -491,7 +491,7 @@ public function construction_update(Request $request, $id)
     $data = Construction::find($id);
     $fileName = $data->pdf;
     if ($request->has('pdf')) {
-        $fileName = $this->UploadImage('Admin/Pdf', '', $request->file('pdf'));
+        $fileName = $this->UploadImage(public_path('Admin/Pdf'), '', $request->file('pdf'));
     }
     $data->tittle = $request->tittle;
     $data->pdf = $fileName;
@@ -530,7 +530,7 @@ public function repair_maintenance_save(Request $request)
 
     $file = Null;
     if ($request->has('pdf')) {
-        $file = $this->UploadImage('Admin/Pdf', '', $request->file('pdf'));
+        $file = $this->UploadImage(public_path('Admin/Pdf'), '', $request->file('pdf'));
     }
     $data = RepairMaintenance::create([
         'tittle' => $request->tittle,
@@ -551,7 +551,7 @@ public function repair_maintenance_update(Request $request, $id)
     $data = RepairMaintenance::find($id);
     $fileName = $data->pdf;
     if ($request->has('pdf')) {
-        $fileName = $this->UploadImage('Admin/Pdf', '', $request->file('pdf'));
+        $fileName = $this->UploadImage(public_path('Admin/Pdf'), '', $request->file('pdf'));
     }
     $data->tittle = $request->tittle;
     $data->pdf = $fileName;
@@ -592,7 +592,7 @@ public function ready_built_save(Request $request)
 
     $file = Null;
     if ($request->has('pdf')) {
-        $file = $this->UploadImage('Admin/Pdf', '', $request->file('pdf'));
+        $file = $this->UploadImage(public_path('Admin/Pdf'), '', $request->file('pdf'));
     }
     $data = ReadyBuilt::create([
         'tittle' => $request->tittle,
@@ -613,7 +613,7 @@ public function ready_built_update(Request $request, $id)
     $data = ReadyBuilt::find($id);
     $fileName = $data->pdf;
     if ($request->has('pdf')) {
-        $fileName = $this->UploadImage('Admin/Pdf', '', $request->file('pdf'));
+        $fileName = $this->UploadImage(public_path('Admin/Pdf'), '', $request->file('pdf'));
     }
     $data->tittle = $request->tittle;
     $data->pdf = $fileName;
@@ -652,7 +652,7 @@ public function hired_office_save(Request $request)
 
     $file = Null;
     if ($request->has('pdf')) {
-        $file = $this->UploadImage('Admin/Pdf', '', $request->file('pdf'));
+        $file = $this->UploadImage(public_path('Admin/Pdf'), '', $request->file('pdf'));
     }
     $data = HiredOffice::create([
         'tittle' => $request->tittle,
@@ -673,7 +673,7 @@ public function hired_office_update(Request $request, $id)
     $data = HiredOffice::find($id);
     $fileName = $data->pdf;
     if ($request->has('pdf')) {
-        $fileName = $this->UploadImage('Admin/Pdf', '', $request->file('pdf'));
+        $fileName = $this->UploadImage(public_path('Admin/Pdf'), '', $request->file('pdf'));
     }
     $data->tittle = $request->tittle;
     $data->pdf = $fileName;
@@ -712,7 +712,7 @@ public function Various_communication_save(Request $request)
 
     $file = Null;
     if ($request->has('pdf')) {
-        $file = $this->UploadImage('Admin/Pdf', '', $request->file('pdf'));
+        $file = $this->UploadImage(public_path('Admin/Pdf'), '', $request->file('pdf'));
     }
     $data = VariousCommunication::create([
         'tittle' => $request->tittle,
@@ -733,7 +733,7 @@ public function Various_communication_update(Request $request, $id)
     $data = VariousCommunication::find($id);
     $fileName = $data->pdf;
     if ($request->has('pdf')) {
-        $fileName = $this->UploadImage('Admin/Pdf', '', $request->file('pdf'));
+        $fileName = $this->UploadImage(public_path('Admin/Pdf'), '', $request->file('pdf'));
     }
     $data->tittle = $request->tittle;
     $data->pdf = $fileName;

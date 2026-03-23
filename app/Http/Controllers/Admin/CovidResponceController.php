@@ -43,7 +43,7 @@ class CovidResponceController extends Controller
 
         $file = Null;
         if ($request->has('pdf')) {
-            $file = $this->UploadImage('Admin/Pdf', '', $request->file('pdf'));
+            $file = $this->UploadImage(public_path('Admin/Pdf'), '', $request->file('pdf'));
         }
         $data = Shraddhanjali::create([
             'tittle' => $request->tittle,
@@ -64,7 +64,7 @@ class CovidResponceController extends Controller
         $data = Shraddhanjali::find($id);
         $fileName = $data->pdf;
         if ($request->has('pdf')) {
-            $fileName = $this->UploadImage('Admin/Pdf', '', $request->file('pdf'));
+            $fileName = $this->UploadImage(public_path('Admin/Pdf'), '', $request->file('pdf'));
         }
         $data->tittle = $request->tittle;
         $data->pdf = $fileName;

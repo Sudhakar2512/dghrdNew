@@ -49,7 +49,7 @@ class EmcController extends Controller
 
         $file = Null;
         if ($request->has('pdf')) {
-            $file = $this->UploadImage('Admin/Pdf', '', $request->file('pdf'));
+            $file = $this->UploadImage(public_path('Admin/Pdf'), '', $request->file('pdf'));
         }
         $data = EmcOfficerDetail::create([
             'tittle' => $request->tittle,
@@ -70,7 +70,7 @@ class EmcController extends Controller
         $data = EmcOfficerDetail::find($id);
         $fileName = $data->pdf;
         if ($request->has('pdf')) {
-            $fileName = $this->UploadImage('Admin/Pdf', '', $request->file('pdf'));
+            $fileName = $this->UploadImage(public_path('Admin/Pdf'), '', $request->file('pdf'));
         }
         $data->tittle = $request->tittle;
         $data->pdf = $fileName;
@@ -108,7 +108,7 @@ class EmcController extends Controller
 
         $file = Null;
         if ($request->has('pdf')) {
-            $file = $this->UploadImage('Admin/Pdf', '', $request->file('pdf'));
+            $file = $this->UploadImage(public_path('Admin/Pdf'), '', $request->file('pdf'));
         }
         $data = FundAllocation::create([
             'tittle' => $request->tittle,
@@ -129,7 +129,7 @@ class EmcController extends Controller
         $data = FundAllocation::find($id);
         $fileName = $data->pdf;
         if ($request->has('pdf')) {
-            $fileName = $this->UploadImage('Admin/Pdf', '', $request->file('pdf'));
+            $fileName = $this->UploadImage(public_path('Admin/Pdf'), '', $request->file('pdf'));
         }
         $data->tittle = $request->tittle;
         $data->pdf = $fileName;
@@ -167,7 +167,7 @@ class EmcController extends Controller
 
         $file = Null;
         if ($request->has('pdf')) {
-            $file = $this->UploadImage('Admin/Pdf', '', $request->file('pdf'));
+            $file = $this->UploadImage(public_path('Admin/Pdf'), '', $request->file('pdf'));
         }
         $data = EmcPpt::create([
             'tittle' => $request->tittle,
@@ -188,7 +188,7 @@ class EmcController extends Controller
         $data = EmcPpt::find($id);
         $fileName = $data->pdf;
         if ($request->has('pdf')) {
-            $fileName = $this->UploadImage('Admin/Pdf', '', $request->file('pdf'));
+            $fileName = $this->UploadImage(public_path('Admin/Pdf'), '', $request->file('pdf'));
         }
         $data->tittle = $request->tittle;
         $data->pdf = $fileName;
@@ -225,7 +225,7 @@ class EmcController extends Controller
 
         $file = Null;
         if ($request->has('pdf')) {
-            $file = $this->UploadImage('Admin/Pdf', '', $request->file('pdf'));
+            $file = $this->UploadImage(public_path('Admin/Pdf'), '', $request->file('pdf'));
         }
         $data = EmcManual::create([
             'tittle' => $request->tittle,
@@ -246,7 +246,7 @@ class EmcController extends Controller
         $data = EmcManual::find($id);
         $fileName = $data->pdf;
         if ($request->has('pdf')) {
-            $fileName = $this->UploadImage('Admin/Pdf', '', $request->file('pdf'));
+            $fileName = $this->UploadImage(public_path('Admin/Pdf'), '', $request->file('pdf'));
         }
         $data->tittle = $request->tittle;
         $data->pdf = $fileName;
@@ -284,7 +284,7 @@ class EmcController extends Controller
 
         $file = Null;
         if ($request->has('pdf')) {
-            $file = $this->UploadImage('Admin/Pdf', '', $request->file('pdf'));
+            $file = $this->UploadImage(public_path('Admin/Pdf'), '', $request->file('pdf'));
         }
         $data = BudgetaryAuthority::create([
             'tittle' => $request->tittle,
@@ -305,7 +305,7 @@ class EmcController extends Controller
         $data = BudgetaryAuthority::find($id);
         $fileName = $data->pdf;
         if ($request->has('pdf')) {
-            $fileName = $this->UploadImage('Admin/Pdf', '', $request->file('pdf'));
+            $fileName = $this->UploadImage(public_path('Admin/Pdf'), '', $request->file('pdf'));
         }
         $data->tittle = $request->tittle;
         $data->pdf = $fileName;
@@ -343,7 +343,7 @@ class EmcController extends Controller
 
         $file = Null;
         if ($request->has('pdf')) {
-            $file = $this->UploadImage('Admin/Pdf', '', $request->file('pdf'));
+            $file = $this->UploadImage(public_path('Admin/Pdf'), '', $request->file('pdf'));
         }
         $data = GemEprocurement::create([
             'tittle' => $request->tittle,
@@ -364,7 +364,7 @@ class EmcController extends Controller
         $data = GemEprocurement::find($id);
         $fileName = $data->pdf;
         if ($request->has('pdf')) {
-            $fileName = $this->UploadImage('Admin/Pdf', '', $request->file('pdf'));
+            $fileName = $this->UploadImage(public_path('Admin/Pdf'), '', $request->file('pdf'));
         }
         $data->tittle = $request->tittle;
         $data->pdf = $fileName;
@@ -402,7 +402,7 @@ public function vehicle_policy_view($id = null)
 
     $file = Null;
     if ($request->has('pdf')) {
-        $file = $this->UploadImage('Admin/Pdf', '', $request->file('pdf'));
+        $file = $this->UploadImage(public_path('Admin/Pdf'), '', $request->file('pdf'));
     }
     $data = VehiclePolicy::create([
         'tittle' => $request->tittle,
@@ -423,7 +423,7 @@ public function vehicle_policy_update(Request $request, $id)
     $data = VehiclePolicy::find($id);
     $fileName = $data->pdf;
     if ($request->has('pdf')) {
-        $fileName = $this->UploadImage('Admin/Pdf', '', $request->file('pdf'));
+        $fileName = $this->UploadImage(public_path('Admin/Pdf'), '', $request->file('pdf'));
     }
     $data->tittle = $request->tittle;
     $data->pdf = $fileName;
@@ -462,7 +462,7 @@ public function crb_view($id = null)
 
     $file = Null;
     if ($request->has('pdf')) {
-        $file = $this->UploadImage('Admin/Pdf', '', $request->file('pdf'));
+        $file = $this->UploadImage(public_path('Admin/Pdf'), '', $request->file('pdf'));
     }
     $data = Crb::create([
         'tittle' => $request->tittle,
@@ -483,7 +483,7 @@ public function crb_update(Request $request, $id)
     $data = Crb::find($id);
     $fileName = $data->pdf;
     if ($request->has('pdf')) {
-        $fileName = $this->UploadImage('Admin/Pdf', '', $request->file('pdf'));
+        $fileName = $this->UploadImage(public_path('Admin/Pdf'), '', $request->file('pdf'));
     }
     $data->tittle = $request->tittle;
     $data->pdf = $fileName;
@@ -521,7 +521,7 @@ public function emc_communication_view($id = null)
 
     $file = Null;
     if ($request->has('pdf')) {
-        $file = $this->UploadImage('Admin/Pdf', '', $request->file('pdf'));
+        $file = $this->UploadImage(public_path('Admin/Pdf'), '', $request->file('pdf'));
     }
     $data = EmcVariousCommunication::create([
         'tittle' => $request->tittle,
@@ -542,7 +542,7 @@ public function emc_communication_update(Request $request, $id)
     $data = EmcVariousCommunication::find($id);
     $fileName = $data->pdf;
     if ($request->has('pdf')) {
-        $fileName = $this->UploadImage('Admin/Pdf', '', $request->file('pdf'));
+        $fileName = $this->UploadImage(public_path('Admin/Pdf'), '', $request->file('pdf'));
     }
     $data->tittle = $request->tittle;
     $data->pdf = $fileName;

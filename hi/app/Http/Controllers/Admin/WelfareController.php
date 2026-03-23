@@ -54,7 +54,7 @@ class WelfareController extends Controller
 
         $file = Null;
         if ($request->has('pdf')) {
-            $file = $this->UploadImage('Admin/Pdf', '', $request->file('pdf'));
+            $file = $this->UploadImage(public_path('Admin/Pdf'), '', $request->file('pdf'));
         }
         $data = WelfareOfficer::create([
             'tittle' => $request->tittle,
@@ -75,7 +75,7 @@ class WelfareController extends Controller
         $data = WelfareOfficer::find($id);
         $fileName = $data->pdf;
         if ($request->has('pdf')) {
-            $fileName = $this->UploadImage('Admin/Pdf', '', $request->file('pdf'));
+            $fileName = $this->UploadImage(public_path('Admin/Pdf'), '', $request->file('pdf'));
         }
         $data->tittle = $request->tittle;
         $data->pdf = $fileName;
@@ -114,7 +114,7 @@ class WelfareController extends Controller
 
         $file = Null;
         if ($request->has('pdf')) {
-            $file = $this->UploadImage('Admin/Pdf', '', $request->file('pdf'));
+            $file = $this->UploadImage(public_path('Admin/Pdf'), '', $request->file('pdf'));
         }
         $data = Compendium::create([
             'tittle' => $request->tittle,
@@ -135,7 +135,7 @@ class WelfareController extends Controller
         $data = Compendium::find($id);
         $fileName = $data->pdf;
         if ($request->has('pdf')) {
-            $fileName = $this->UploadImage('Admin/Pdf', '', $request->file('pdf'));
+            $fileName = $this->UploadImage(public_path('Admin/Pdf'), '', $request->file('pdf'));
         }
         $data->tittle = $request->tittle;
         $data->pdf = $fileName;
@@ -173,7 +173,7 @@ class WelfareController extends Controller
 
         $file = Null;
         if ($request->has('pdf')) {
-            $file = $this->UploadImage('Admin/Pdf', '', $request->file('pdf'));
+            $file = $this->UploadImage(public_path('Admin/Pdf'), '', $request->file('pdf'));
         }
         $data = WelfareScheme::create([
             'tittle' => $request->tittle,
@@ -194,7 +194,7 @@ class WelfareController extends Controller
         $data = WelfareScheme::find($id);
         $fileName = $data->pdf;
         if ($request->has('pdf')) {
-            $fileName = $this->UploadImage('Admin/Pdf', '', $request->file('pdf'));
+            $fileName = $this->UploadImage(public_path('Admin/Pdf'), '', $request->file('pdf'));
         }
         $data->tittle = $request->tittle;
         $data->pdf = $fileName;
@@ -234,7 +234,7 @@ class WelfareController extends Controller
 
         $file = Null;
         if ($request->has('pdf')) {
-            $file = $this->UploadImage('Admin/Pdf', '', $request->file('pdf'));
+            $file = $this->UploadImage(public_path('Admin/Pdf'), '', $request->file('pdf'));
         }
         $data = ActionPlan::create([
             'tittle' => $request->tittle,
@@ -255,7 +255,7 @@ class WelfareController extends Controller
         $data = ActionPlan::find($id);
         $fileName = $data->pdf;
         if ($request->has('pdf')) {
-            $fileName = $this->UploadImage('Admin/Pdf', '', $request->file('pdf'));
+            $fileName = $this->UploadImage(public_path('Admin/Pdf'), '', $request->file('pdf'));
         }
         $data->tittle = $request->tittle;
         $data->pdf = $fileName;
@@ -294,7 +294,7 @@ class WelfareController extends Controller
 
         $file = Null;
         if ($request->has('pdf')) {
-            $file = $this->UploadImage('Admin/Pdf', '', $request->file('pdf'));
+            $file = $this->UploadImage(public_path('Admin/Pdf'), '', $request->file('pdf'));
         }
         $data = Scheme::create([
             'tittle' => $request->tittle,
@@ -315,7 +315,7 @@ class WelfareController extends Controller
         $data = Scheme::find($id);
         $fileName = $data->pdf;
         if ($request->has('pdf')) {
-            $fileName = $this->UploadImage('Admin/Pdf', '', $request->file('pdf'));
+            $fileName = $this->UploadImage(public_path('Admin/Pdf'), '', $request->file('pdf'));
         }
         $data->tittle = $request->tittle;
         $data->pdf = $fileName;
@@ -353,7 +353,7 @@ class WelfareController extends Controller
 
      $file = Null;
      if ($request->has('pdf')) {
-         $file = $this->UploadImage('Admin/Pdf', '', $request->file('pdf'));
+         $file = $this->UploadImage(public_path('Admin/Pdf'), '', $request->file('pdf'));
      }
      $data = WelfarePpt::create([
          'tittle' => $request->tittle,
@@ -374,7 +374,7 @@ class WelfareController extends Controller
      $data = WelfarePpt::find($id);
      $fileName = $data->pdf;
      if ($request->has('pdf')) {
-         $fileName = $this->UploadImage('Admin/Pdf', '', $request->file('pdf'));
+         $fileName = $this->UploadImage(public_path('Admin/Pdf'), '', $request->file('pdf'));
      }
      $data->tittle = $request->tittle;
      $data->pdf = $fileName;
@@ -412,7 +412,7 @@ class WelfareController extends Controller
 
      $file = Null;
      if ($request->has('pdf')) {
-         $file = $this->UploadImage('Admin/Pdf', '', $request->file('pdf'));
+         $file = $this->UploadImage(public_path('Admin/Pdf'), '', $request->file('pdf'));
      }
      $data = WelfareManual::create([
          'tittle' => $request->tittle,
@@ -433,7 +433,7 @@ class WelfareController extends Controller
      $data = WelfareManual::find($id);
      $fileName = $data->pdf;
      if ($request->has('pdf')) {
-         $fileName = $this->UploadImage('Admin/Pdf', '', $request->file('pdf'));
+         $fileName = $this->UploadImage(public_path('Admin/Pdf'), '', $request->file('pdf'));
      }
      $data->tittle = $request->tittle;
      $data->pdf = $fileName;
@@ -470,7 +470,7 @@ public function comman_facilties_save(Request $request)
 
     $file = Null;
     if ($request->has('pdf')) {
-        $file = $this->UploadImage('Admin/Pdf', '', $request->file('pdf'));
+        $file = $this->UploadImage(public_path('Admin/Pdf'), '', $request->file('pdf'));
     }
     $data = CommanFacility::create([
         'tittle' => $request->tittle,
@@ -491,7 +491,7 @@ public function comman_facilties_update(Request $request, $id)
     $data = CommanFacility::find($id);
     $fileName = $data->pdf;
     if ($request->has('pdf')) {
-        $fileName = $this->UploadImage('Admin/Pdf', '', $request->file('pdf'));
+        $fileName = $this->UploadImage(public_path('Admin/Pdf'), '', $request->file('pdf'));
     }
     $data->tittle = $request->tittle;
     $data->pdf = $fileName;
@@ -529,7 +529,7 @@ public function hotel_tieup_save(Request $request)
 
     $file = Null;
     if ($request->has('pdf')) {
-        $file = $this->UploadImage('Admin/Pdf', '', $request->file('pdf'));
+        $file = $this->UploadImage(public_path('Admin/Pdf'), '', $request->file('pdf'));
     }
     $data = HotelTieup::create([
         'tittle' => $request->tittle,
@@ -550,7 +550,7 @@ public function hotel_tieup_update(Request $request, $id)
     $data = HotelTieup::find($id);
     $fileName = $data->pdf;
     if ($request->has('pdf')) {
-        $fileName = $this->UploadImage('Admin/Pdf', '', $request->file('pdf'));
+        $fileName = $this->UploadImage(public_path('Admin/Pdf'), '', $request->file('pdf'));
     }
     $data->tittle = $request->tittle;
     $data->pdf = $fileName;
@@ -587,7 +587,7 @@ public function hotel_draft_save(Request $request)
 
     $file = Null;
     if ($request->has('pdf')) {
-        $file = $this->UploadImage('Admin/Pdf', '', $request->file('pdf'));
+        $file = $this->UploadImage(public_path('Admin/Pdf'), '', $request->file('pdf'));
     }
     $data = HotelDraft::create([
         'tittle' => $request->tittle,
@@ -608,7 +608,7 @@ public function hotel_draft_update(Request $request, $id)
     $data = HotelDraft::find($id);
     $fileName = $data->pdf;
     if ($request->has('pdf')) {
-        $fileName = $this->UploadImage('Admin/Pdf', '', $request->file('pdf'));
+        $fileName = $this->UploadImage(public_path('Admin/Pdf'), '', $request->file('pdf'));
     }
     $data->tittle = $request->tittle;
     $data->pdf = $fileName;
@@ -647,7 +647,7 @@ public function guest_house_save(Request $request)
 
     $file = Null;
     if ($request->has('pdf')) {
-        $file = $this->UploadImage('Admin/Pdf', '', $request->file('pdf'));
+        $file = $this->UploadImage(public_path('Admin/Pdf'), '', $request->file('pdf'));
     }
     $data = GuestHouse::create([
         'tittle' => $request->tittle,
@@ -668,7 +668,7 @@ public function guest_house_update(Request $request, $id)
     $data = GuestHouse::find($id);
     $fileName = $data->pdf;
     if ($request->has('pdf')) {
-        $fileName = $this->UploadImage('Admin/Pdf', '', $request->file('pdf'));
+        $fileName = $this->UploadImage(public_path('Admin/Pdf'), '', $request->file('pdf'));
     }
     $data->tittle = $request->tittle;
     $data->pdf = $fileName;
@@ -706,7 +706,7 @@ public function covid_save(Request $request)
 
     $file = Null;
     if ($request->has('pdf')) {
-        $file = $this->UploadImage('Admin/Pdf', '', $request->file('pdf'));
+        $file = $this->UploadImage(public_path('Admin/Pdf'), '', $request->file('pdf'));
     }
     $data = Covid19::create([
         'tittle' => $request->tittle,
@@ -727,7 +727,7 @@ public function covid_update(Request $request, $id)
     $data = Covid19::find($id);
     $fileName = $data->pdf;
     if ($request->has('pdf')) {
-        $fileName = $this->UploadImage('Admin/Pdf', '', $request->file('pdf'));
+        $fileName = $this->UploadImage(public_path('Admin/Pdf'), '', $request->file('pdf'));
     }
     $data->tittle = $request->tittle;
     $data->pdf = $fileName;
@@ -765,7 +765,7 @@ public function proposels_save(Request $request)
 
     $file = Null;
     if ($request->has('pdf')) {
-        $file = $this->UploadImage('Admin/Pdf', '', $request->file('pdf'));
+        $file = $this->UploadImage(public_path('Admin/Pdf'), '', $request->file('pdf'));
     }
     $data = WelfareProposel::create([
         'tittle' => $request->tittle,
@@ -786,7 +786,7 @@ public function proposels_update(Request $request, $id)
     $data = WelfareProposel::find($id);
     $fileName = $data->pdf;
     if ($request->has('pdf')) {
-        $fileName = $this->UploadImage('Admin/Pdf', '', $request->file('pdf'));
+        $fileName = $this->UploadImage(public_path('Admin/Pdf'), '', $request->file('pdf'));
     }
     $data->tittle = $request->tittle;
     $data->pdf = $fileName;
@@ -824,7 +824,7 @@ public function welfare_communication_save(Request $request)
 
     $file = Null;
     if ($request->has('pdf')) {
-        $file = $this->UploadImage('Admin/Pdf', '', $request->file('pdf'));
+        $file = $this->UploadImage(public_path('Admin/Pdf'), '', $request->file('pdf'));
     }
     $data = WelfareVariousCommuniction::create([
         'tittle' => $request->tittle,
@@ -845,7 +845,7 @@ public function welfare_communication_update(Request $request, $id)
     $data = WelfareVariousCommuniction::find($id);
     $fileName = $data->pdf;
     if ($request->has('pdf')) {
-        $fileName = $this->UploadImage('Admin/Pdf', '', $request->file('pdf'));
+        $fileName = $this->UploadImage(public_path('Admin/Pdf'), '', $request->file('pdf'));
     }
     $data->tittle = $request->tittle;
     $data->pdf = $fileName;
