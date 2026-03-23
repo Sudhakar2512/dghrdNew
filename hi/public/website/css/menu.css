@@ -740,73 +740,59 @@ opacity: 0.8;
   background:white !important;
   font-weight:600;
 }
-.news-marquee-div{
-  display:flex;
-  align-items:center;
-  justify-content:center;
-  margin:25px;
-  border:1px solid #284473;
+.news-marquee-div {
+  display: flex;
+  align-items: center;
+  margin: 25px;
+  border: 1px solid #284473;
   background-color: #ffd4a1;
-  border-radius:20px;
-  box-shadow:2px 3px 6px grey;
-  /*position:relative;*/
-  /*padding:10px 0px;*/
+  border-radius: 20px;
+  box-shadow: 2px 3px 6px grey;
+  overflow: hidden;
 }
-/*.news-marquee-div:before{*/
-/*  position:absolute;*/
-/*  top:0;*/
-/*  left:0;*/
-/*  content:"News Updates";*/
-/*  width:fit-content;*/
-/*  white-space: nowrap;*/
-/*  background-color:#ffd4a1;*/
-/*  border-right:2px solid #284473;*/
-/*  display: flex;*/
-/*  z-index:55;*/
-/*  color:#000000;*/
-/*  font-weight:600;*/
-/*  align-items: center;*/
-/*  padding:10px 15px;*/
-/*  text-shadow:1px 1px 1px #fff;*/
-/*  border-radius:20px 0px 0px 20px;*/
-/*}*/
 
-/*.news-marquee-div:after{*/
-/*  position:absolute;*/
-/*  top:0;*/
-/*  right:0;*/
-/*  content:"View All";*/
-/*  width:fit-content;*/
-/*  white-space:nowrap;*/
-/*  color:#fff;*/
-/*  padding:10px 15px;*/
-/*  background-color:#284473;*/
-/*  border-radius: 0px 20px 20px 0px;*/
-/*}*/
-
-.news-title-marquee{
-  width:fit-content;
+.news-title-marquee {
   white-space: nowrap;
   background-color: #ffd4a1;
-  border-right:2px solid #284473;
+  border-right: 2px solid #284473;
   display: flex;
-  color:#000000;
-  font-weight:600;
+  color: #000;
+  font-weight: 600;
   align-items: center;
-  padding:10px 15px;
-  text-shadow:1px 1px 1px #fff;
-  border-radius:20px 0px 0px 20px;
+  padding: 10px 15px;
+  text-shadow: 1px 1px 1px #fff;
+  border-radius: 20px 0 0 20px;
 }
 
-.news-btn-marquee{
-  width:fit-content;
-  white-space:nowrap;
-  padding:10px 15px;
-  background-color:#284473;
-  border-radius: 0px 20px 20px 0px;
+.news-marquee-wrapper {
+  flex: 1;
+  overflow: hidden;
+  position: relative;
 }
-.news-btn-marquee a{
-  color:#fff;
+
+.news-marquee-track {
+  display: inline-flex;
+  align-items: center;
+  gap: 40px;
+  white-space: nowrap;
+  position: relative;
+  left: 100%;
+}
+
+.news-item {
+  white-space: nowrap;
+}
+
+.news-btn-marquee {
+  white-space: nowrap;
+  padding: 10px 15px;
+  background-color: #284473;
+  border-radius: 0 20px 20px 0;
+}
+
+.news-btn-marquee a {
+  color: #fff;
+  text-decoration: none;
 }
 
 .icon-ani {

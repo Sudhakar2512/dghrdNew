@@ -3,20 +3,36 @@
 
 <div class="container-fluid px-0">
   <div class="news-marquee-div">
+
     <div class="news-title-marquee">
       <p class="my-auto">समाचार अपडेट</p>
     </div>
 
-    <marquee class="news-marquee">
-      <div class="d-flex">
-        <li class="me-4">53वीं जीएसटी परिषद के निर्णयों की प्रेस विज्ञप्ति <i class="fa fa-file-pdf-o ms-1 text-danger icon-ani"></i></li>
-        <li class="me-4">कार्यालय आदेश संख्या 171/2023 दिनांक 10.10.2023 के अनुसार सहायक आयुक्त ग्रेड के लिए समूह बी अधिकारियों की पोस्टिंग हेतु विकल्प आमंत्रित। <i class="fa fa-file-pdf-o ms-1 text-danger icon-ani"></i></li>
-        <li class="me-4">कस्टम ब्रोकर्स लाइसेंसिंग मौखिक परीक्षा, जून 2024 का परिणाम <i class="fa fa-file-pdf-o ms-1 text-danger icon-ani"></i></li>
+    <div class="news-marquee-wrapper">
+      <div class="news-marquee-track" id="newsTrack">
+
+        <li class="me-4">
+          53वीं जीएसटी परिषद के निर्णयों की प्रेस विज्ञप्ति
+          <i class="fa fa-file-pdf-o ms-1 text-danger icon-ani"></i>
+        </li>
+
+        <li class="me-4">
+          कार्यालय आदेश संख्या 171/2023 दिनांक 10.10.2023 के अनुसार सहायक आयुक्त ग्रेड के लिए समूह बी अधिकारियों की पोस्टिंग हेतु विकल्प आमंत्रित।
+          <i class="fa fa-file-pdf-o ms-1 text-danger icon-ani"></i>
+        </li>
+
+        <li class="me-4">
+          कस्टम ब्रोकर्स लाइसेंसिंग मौखिक परीक्षा, जून 2024 का परिणाम
+          <i class="fa fa-file-pdf-o ms-1 text-danger icon-ani"></i>
+        </li>
+
       </div>
-    </marquee>
+    </div>
+
     <div class="news-btn-marquee">
       <a href="{{url('latest-news')}}" class="aa">सभी देखें</a>
     </div>
+
   </div>
 </div>
 
@@ -474,5 +490,33 @@
       }
     });
   });
+</script>
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+
+    const track = document.getElementById("newsTrack");
+    const wrapper = document.querySelector(".news-marquee-wrapper");
+
+    let pos = wrapper.offsetWidth;
+    const speed = 1; // 🔥 change this for speed (0.5 slow, 2 fast)
+    let pause = false;
+
+    function animate() {
+        if (!pause) {
+            pos -= speed;
+            track.style.left = pos + "px";
+
+            if (pos < -track.scrollWidth) {
+                pos = wrapper.offsetWidth;
+            }
+        }
+        requestAnimationFrame(animate);
+    }
+
+    wrapper.addEventListener("mouseenter", () => pause = true);
+    wrapper.addEventListener("mouseleave", () => pause = false);
+
+    animate();
+});
 </script>
 @endsection
